@@ -6,57 +6,43 @@ variants:
    build: true
    files:
      included:
-       - welcome/**/*.adoc
-       - release_notes/**/*.adoc
-       - architecture/**/*.adoc
-       - installing/**/*.adoc
-       - post_installation_configuration/**/*.adoc
-       - updating/**/*.adoc
-       - support/**/*.adoc
-       - web_console/**/*.adoc
-       - cli_reference/**/*.adoc
-       - security/**/*.adoc
-       - authentication/**/*.adoc
-       - networking/**/*.adoc
-       - storage/**/*.adoc
-       - registry/**/*.adoc
-       - operators/**/*.adoc
-       - cicd/**/*.adoc
-       - openshift_images/**/*.adoc
-       - applications/**/*.adoc
-       - machine_management/**/*.adoc
-       - nodes/**/*.adoc
-       - windows_containers/**/*.adoc
-       - sandboxed_containers/**/*.adoc
-       - logging/**/*.adoc
-       - monitoring/**/*.adoc
-       - scalability_and_performance/**/*.adoc
-       - hardware_enablement/**/*.adoc
-       - backup_and_restore/**/*.adoc
-       - migrating_from_ocp_3_to_4/**/*.adoc
-       - migration_toolkit_for_containers/**/*.adoc
-       - rest_api/**/*.adoc
-       - service_mesh/**/*.adoc
-       - jaeger/**/*.adoc
-       - virt/**/*.adoc
-       - serverless/**/*.adoc
+       - assemblies/**/*.adoc
        - modules/**/*.adoc
        - images/*.png
        - images/*.svg
      excluded:
+       - contributing_to_docs
+       - mod_docs_guide
+       - rosa_architecture
+       - rosa_planning
+       - rosa_getting_started_sts
+       - rosa_getting_started
+       - adding_service_cluster
+       - rosa_cli
+       - cloud_infrastructure_access
+       - rosa_policy
+       - rosa_support
+       - osd_architecture
+       - osd_planning
+       - osd_quickstart
+       - administering_a_cluster
+       - osd_cluster_create
+       - upgrading
+       - osd_notifications
+       - osd_policy
        - _unused_topics
        - _package
        - _stylesheets
        - scripts
-       - whats_new
-       - getting_started
-       - cloud_infrastructure_access
-       - administering_a_cluster
        - _images
        - _javascript
        - _preview
        - _snippets
        - _templates
+       - _topic_maps
+       - .github
+       - .git
+       - .s2i
  - name: openshift-dedicated
    attributes:
     - _attributes/osd-attributes.adoc
@@ -93,3 +79,7 @@ variants:
        - _preview
        - _snippets
        - _templates
+       - _topic_maps
+       - .github
+       - .git
+       - .s2i
