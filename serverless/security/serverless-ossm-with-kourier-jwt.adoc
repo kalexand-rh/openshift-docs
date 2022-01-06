@@ -1,9 +1,9 @@
 :_content-type: ASSEMBLY
-include::modules/serverless-document-attributes.adoc[]
-include::modules/ossm-document-attributes.adoc[]
 [id="serverless-ossm-with-kourier-jwt"]
 = Configuring JSON Web Token authentication for Knative services
 :context: serverless-ossm-with-kourier-jwt
+include::modules/serverless-document-attributes.adoc[]
+include::modules/ossm-document-attributes.adoc[]
 include::modules/common-attributes.adoc[]
 
 toc::[]
