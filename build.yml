@@ -41,8 +41,10 @@ variants:
        - virt/**/*.adoc
        - serverless/**/*.adoc
        - modules/**/*.adoc
+       - snippets/**/*.adoc
        - images/*.png
        - images/*.svg
+       - images/*.jpg
      excluded:
        - contributing_to_docs/**/*.adoc
        - mod_docs_guide/**/*.adoc
@@ -100,6 +102,9 @@ variants:
        - osd_policy/**/*.adoc
        - support/**/*.adoc
        - modules/**/*.adoc
+       - images/*.png
+       - images/*.svg
+       - images/*.jpg
      excluded:
        - _unused_topics
        - _package
