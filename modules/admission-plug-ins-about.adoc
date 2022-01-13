@@ -8,6 +8,8 @@
 
 Admission plug-ins are used to help regulate how {product-title} {product-version} functions. Admission plug-ins intercept requests to the master API to validate resource requests and ensure policies are adhered to, after the request is authenticated and authorized. For example, they are commonly used to enforce security policy, resource limitations or configuration requirements.
 
+include::snippets/technology-preview.adoc[leveloffset=+0]
+
 Admission plug-ins run in sequence as an admission chain. If any admission plug-in in the sequence rejects a request, the whole chain is aborted and an error is returned.
 
 {product-title} has a default set of admission plug-ins enabled for each resource type. These are required for proper functioning of the cluster. Admission plug-ins ignore resources that they are not responsible for.
