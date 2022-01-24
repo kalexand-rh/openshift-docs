@@ -8,6 +8,11 @@ This module included in the following assemblies:
 
 The custom resource definition (CRD) defines the configuration used when you deploy an instance of {OTELName}.
 
+[id="distr-tracing-deploy-otel-collector-cli_{context}"]
+== Deploying {OTELShortName} from the web console
+
+Follow this procedure to create an instance of {OTELShortName} from the web console.
+
 .Prerequisites
 
 * The {OTELName} Operator has been installed.
@@ -48,7 +53,7 @@ If you are installing distributed tracing as part of Service Mesh, the {DTShortN
 . On the *Details* page, click the *Resources* tab. Wait until the pod has a status of "Running" before continuing.
 
 [id="distr-tracing-deploy-otel-collector-cli_{context}"]
-= Deploying {OTELShortName} from the CLI
+== Deploying {OTELShortName} from the CLI
 
 Follow this procedure to create an instance of {OTELShortName} from the command line.
 
