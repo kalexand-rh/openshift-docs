@@ -82,7 +82,7 @@ variants:
  - name: openshift-dedicated
    attributes:
     - _attributes/osd-attributes.adoc
-   build: false
+   build: true
    files:
      included:
        - snippets/*.adoc
@@ -126,7 +126,7 @@ variants:
  - name: openshift-rosa
    attributes:
     - _attributes/rosa-attributes.adoc
-   build: false
+   build: true
    files:
      included:
        - snippets/*.adoc
