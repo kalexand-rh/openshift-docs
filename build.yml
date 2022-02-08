@@ -3,6 +3,7 @@ variants:
  - name: openshift-container-platform
    attributes:
     - _attributes/ocp-attributes.adoc
+   nav: _artifacts/toc.yml
    build: true
    files:
      included:
