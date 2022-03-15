@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-configuring-private-connections"]
 = Configuring private connections
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-configuring-private-connections
 
 toc::[]

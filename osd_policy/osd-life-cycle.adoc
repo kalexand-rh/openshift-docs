@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-life-cycle"]
 = {product-title} update life cycle
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-life-cycle
 
 toc::[]

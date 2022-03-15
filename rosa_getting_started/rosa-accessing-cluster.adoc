@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 [id="rosa-accessing-cluster"]
 = Accessing a ROSA cluster
 :context: rosa-accessing-cluster

@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 [id="rosa-troubleshooting-expired-tokens"]
 = Troubleshooting expired tokens
 :context: rosa-troubleshooting-expired-tokens

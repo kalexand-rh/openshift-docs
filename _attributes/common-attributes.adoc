@@ -72,7 +72,41 @@ endif::[]
 ifdef::openshift-origin[]
 :VirtProductName: OKD Virtualization
 endif::[]
-//
+//servicebinding
 :servicebinding-title: Service Binding Operator
 :servicebinding-shortname: Service Binding
 :servicebinding-ver: servicebinding-1.0
+//serverless
+:ServerlessProductName: OpenShift Serverless
+:ServerlessProductShortName: Serverless
+:ServerlessOperatorName: OpenShift Serverless Operator
+:FunctionsProductName: OpenShift Serverless Functions
+//servicemesh
+:OSSMName: Red Hat OpenShift Service Mesh
+:OSSMShortName: Service Mesh
+:DTProductName: Red Hat OpenShift distributed tracing
+:DTShortName: distributed tracing
+:DTProductVersion: 2.0
+:JaegerName: Red Hat OpenShift distributed tracing platform
+:JaegerShortName: distributed tracing platform
+:JaegerVersion: 1.28.0
+:OTELName: Red Hat OpenShift distributed tracing data collection
+:OTELShortName: distributed tracing data collection
+ifndef::ossmv1[]
+:OSSMVersion: 2.1.1
+:MaistraVersion: 2.1
+endif::[]
+//servicemesh v1
+ifdef::ossmv1[]
+:OSSMVersion: 1.1.16
+:MaistraVersion: 1.1
+endif::[]
+//distr-tracing
+ifndef::jaeger[]
+
+endif::[]
+//jaeger
+ifdef::jaeger[]
+:ProductName: OpenShift Jaeger
+:ProductShortName: Jaeger
+endif::[]

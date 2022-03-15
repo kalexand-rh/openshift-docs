@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 [id="nodes-about-autoscaling-nodes"]
 = About autoscaling nodes on a cluster
 :context: nodes-about-autoscaling-nodes

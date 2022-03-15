@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-sts-understanding-the-deployment-workflow"]
 = Understanding the ROSA with STS deployment workflow
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-sts-overview-of-the-deployment-workflow
 
 toc::[]

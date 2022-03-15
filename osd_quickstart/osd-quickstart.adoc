@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-getting-started"]
 = Getting started with {product-title}
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-getting-started
 
 toc::[]

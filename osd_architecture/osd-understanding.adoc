@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-understanding"]
 = Introduction to {product-title}
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-understanding
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-getting-support"]
 = Getting support for {product-title}
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-getting-support
 toc::[]
 

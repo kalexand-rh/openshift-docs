@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-config-aws-account"]
 = Configuring your AWS account
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-config-aws-account
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="policy-understand-availability"]
 = Understanding availability for {product-title}
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: policy-understand-availability
 
 toc::[]

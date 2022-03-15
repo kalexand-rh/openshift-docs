@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-policy-process-security
 [id="rosa-policy-process-security"]
 = Understanding process and security for {product-title}

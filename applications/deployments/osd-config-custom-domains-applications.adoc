@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-config-custom-domains-applications"]
 = Configuring custom domains for applications
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-config-custom-domains-applications
 
 toc::[]

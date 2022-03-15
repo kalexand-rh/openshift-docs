@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 [id="rosa-sts-deleting-access-cluster"]
 = Revoking access to a ROSA cluster
 :context: rosa-sts-deleting-access-cluster

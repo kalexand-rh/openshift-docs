@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-creating-a-cluster-on-aws"]
 = Creating a cluster on AWS
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-creating-a-cluster-on-aws
 
 toc::[]

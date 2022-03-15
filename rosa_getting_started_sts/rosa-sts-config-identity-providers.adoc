@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-sts-config-identity-providers"]
 = Configuring identity providers for STS
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-sts-config-identity-providers
 
 toc::[]

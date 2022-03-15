@@ -2,7 +2,9 @@
 [id="osd-upgrades"]
 = {product-title} cluster upgrades
 :context: osd-upgrades
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 
 toc::[]
 

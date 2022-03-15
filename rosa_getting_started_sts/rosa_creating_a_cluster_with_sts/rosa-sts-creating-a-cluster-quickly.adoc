@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-sts-creating-a-cluster-quickly"]
 = Creating a ROSA cluster with STS quickly
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-sts-creating-a-cluster-quickly
 
 toc::[]

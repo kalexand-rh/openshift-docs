@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-configuring-the-monitoring-stack"]
 = Configuring the monitoring stack
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-configuring-the-monitoring-stack
 
 toc::[]

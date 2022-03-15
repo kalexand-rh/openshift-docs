@@ -2,7 +2,9 @@
 [id="aws-private-connections"]
 = Configuring private connections for AWS
 :context: aws-private-connections
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 
 toc::[]
 

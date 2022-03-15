@@ -2,7 +2,9 @@
 [id="notifications"]
 = Notifications for {product-title} clusters
 :context: notifications
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 
 toc::[]
 

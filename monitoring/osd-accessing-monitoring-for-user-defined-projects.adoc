@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-accessing-monitoring-for-user-defined-projects"]
 = Accessing monitoring for user-defined projects
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-accessing-monitoring-for-user-defined-projects
 
 toc::[]

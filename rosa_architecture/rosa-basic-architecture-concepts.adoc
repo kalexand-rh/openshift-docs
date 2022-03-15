@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-basic-architecture-concepts"]
 = Architecture concepts
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-basic-architecture-concepts
 toc::[]
 

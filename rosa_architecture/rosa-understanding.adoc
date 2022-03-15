@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-understanding"]
 = Introduction to ROSA
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-understanding
 toc::[]
 

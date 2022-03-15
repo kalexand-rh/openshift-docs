@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="policy-responsibility-matrix"]
 = Responsibility assignment matrix
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: policy-responsibility-matrix
 
 toc::[]

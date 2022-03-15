@@ -3,9 +3,9 @@
 = Opting out of remote health reporting
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
-endif::[]
 ifdef::openshift-dedicated[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 endif::[]
 :context: opting-out-remote-health-reporting
 

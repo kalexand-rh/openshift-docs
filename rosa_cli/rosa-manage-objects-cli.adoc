@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 [id="rosa-managing-objects-cli"]
 = Managing objects with the rosa CLI
 :context: rosa-managing-objects-cli

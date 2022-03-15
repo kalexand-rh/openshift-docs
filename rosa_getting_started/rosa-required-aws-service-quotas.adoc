@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-required-aws-service-quotas"]
 = Required AWS service quotas
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-required-aws-service-quotas
 
 toc::[]

@@ -3,9 +3,9 @@
 = Using Insights to identify issues with your cluster
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
-endif::[]
 ifdef::openshift-dedicated[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 endif::[]
 :context: using-insights-to-identify-issues-with-your-cluster
 

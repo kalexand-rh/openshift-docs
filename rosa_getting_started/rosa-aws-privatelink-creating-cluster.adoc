@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-aws-privatelink-creating-cluster"]
 = Creating an AWS PrivateLink cluster on ROSA
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-aws-privatelink-creating-cluster
 
 toc::[]

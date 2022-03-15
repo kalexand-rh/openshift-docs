@@ -1,9 +1,9 @@
 :_content-type: ASSEMBLY
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
-endif::[]
 ifdef::openshift-dedicated[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 endif::[]
 [id="cluster-wide-proxy-configuration"]
 = Configuring a cluster-wide proxy during installation

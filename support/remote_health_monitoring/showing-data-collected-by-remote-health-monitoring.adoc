@@ -3,9 +3,9 @@
 = Showing data collected by remote health monitoring
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
-endif::[]
 ifdef::openshift-dedicated[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 endif::[]
 :context: showing-data-collected-by-remote-health-monitoring
 

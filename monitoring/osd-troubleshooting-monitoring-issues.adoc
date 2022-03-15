@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-troubleshooting-monitoring-issues"]
 = Troubleshooting monitoring issues
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: osd-troubleshooting-monitoring-issues
 
 toc::[]

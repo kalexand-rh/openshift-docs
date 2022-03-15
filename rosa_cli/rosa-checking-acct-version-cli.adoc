@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 [id="rosa-acct-version-cli"]
 = Checking account and version information with the rosa cli
 :context: rosa-checking-acct-version-cli

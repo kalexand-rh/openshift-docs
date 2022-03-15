@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-command-reference"]
 = Command quick reference for creating clusters and users
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-command-reference
 
 toc::[]

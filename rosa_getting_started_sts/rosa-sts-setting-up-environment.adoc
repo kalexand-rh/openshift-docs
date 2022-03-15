@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-sts-setting-up-environment"]
 = Setting up the environment for using STS
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-sts-setting-up-environment
 
 toc::[]

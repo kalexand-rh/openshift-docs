@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ocm-overview"]
 = Red Hat OpenShift Cluster Manager
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: ocm-overview
 toc::[]
 

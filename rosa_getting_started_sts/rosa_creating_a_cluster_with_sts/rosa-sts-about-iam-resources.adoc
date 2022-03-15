@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-sts-about-iam-resources"]
 = About IAM resources for ROSA clusters that use STS
+ifndef::jupiter[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-sts-about-iam-resources
 
 toc::[]
