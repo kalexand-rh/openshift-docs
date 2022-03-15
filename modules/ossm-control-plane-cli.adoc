@@ -11,7 +11,7 @@ You can deploy a basic `ServiceMeshControlPlane` from the command line.
 
 .Prerequisites
 
-* The {ProductName} Operator must be installed.
+* The {OSSMName} Operator must be installed.
 * Access to the OpenShift CLI (`oc`).
 
 .Procedure

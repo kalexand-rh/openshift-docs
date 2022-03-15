@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-updating-node-network-config"]
 = Updating node network configuration
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-updating-node-network-config
 
 toc::[]

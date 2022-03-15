@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-defining-an-sriov-network"]
 = Defining an SR-IOV network
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-defining-an-sriov-network
 
 toc::[]

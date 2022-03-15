@@ -1,7 +1,6 @@
 :_content-type: ASSEMBLY
 [id="virt-managing-node-labeling-obsolete-cpu-models"]
 = Managing node labeling for obsolete CPU models
-include::_attributes/virt-document-attributes.adoc[]
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]

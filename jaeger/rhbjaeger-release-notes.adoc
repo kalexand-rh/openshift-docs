@@ -1,8 +1,11 @@
 :_content-type: ASSEMBLY
 [id="jaeger-release-notes"]
 = Jaeger Release Notes
-include::_attributes/jaeger-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: jaeger-release-notes
+:jaeger: true
 
 toc::[]
 

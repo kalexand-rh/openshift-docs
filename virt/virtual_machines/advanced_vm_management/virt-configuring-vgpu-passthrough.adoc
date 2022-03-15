@@ -1,6 +1,8 @@
 [id="virt-configuring-vgpu-passthrough"]
 = Configuring vGPU passthrough
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-configuring-vgpu-passthrough
 
 toc::[]

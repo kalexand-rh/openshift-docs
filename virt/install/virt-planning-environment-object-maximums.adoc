@@ -1,6 +1,8 @@
 :_content-type: ASSEMBLY
 [id="virt-planning-environment-object-maximums"]
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 = Planning your environment according to {VirtProductName} object maximums
 :context: virt-planning-environment-object-maximums
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-using-huge-pages-with-vms"]
 = Using huge pages with virtual machines
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-using-huge-pages-with-vms
 
 toc::[]

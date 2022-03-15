@@ -5,7 +5,6 @@
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]
-include::_attributes/ossm-document-attributes.adoc[]
 
 toc::[]
 
@@ -89,7 +88,7 @@ include::modules/ossm-installation-activities.adoc[leveloffset=+2]
 
 .Next steps
 
-* xref:../service_mesh/v2x/installing-ossm.adoc#installing-ossm[Install {ProductName}] in your {product-title} environment.
+* xref:../service_mesh/v2x/installing-ossm.adoc#installing-ossm[Install {OSSMName}] in your {product-title} environment.
 
 [id="post-installationrouting-optimization"]
 == Optimizing routing

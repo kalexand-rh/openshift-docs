@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-cloning-vm-disk-into-new-datavolume"]
 = Cloning a virtual machine disk into a new data volume
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-cloning-vm-disk-into-new-datavolume
 
 toc::[]

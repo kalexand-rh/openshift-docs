@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-installing-virtio-drivers-on-existing-windows-vm"]
 = Installing VirtIO driver on an existing Windows virtual machine
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-installing-virtio-drivers-on-existing-windows-vm
 
 toc::[]

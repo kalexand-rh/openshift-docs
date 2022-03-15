@@ -4,7 +4,6 @@
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]
-include::_attributes/servicebinding-document-attributes.adoc[]
 :context: exposing-binding-data-from-a-service
 
 toc::[]

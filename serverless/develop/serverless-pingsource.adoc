@@ -2,7 +2,7 @@
 [id="serverless-pingsource"]
 = Creating a ping source
 :context: serverless-pingsource
-include::_attributes/serverless-document-attributes.adoc[]
+
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]

@@ -1,12 +1,14 @@
 :_content-type: ASSEMBLY
 [id="removing-ossm"]
 = Uninstalling Service Mesh
-include::_attributes/ossm-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: removing-ossm
 
 toc::[]
 
-To uninstall {ProductName} from an existing {product-title} instance and remove its resources, you must delete the control plane, delete the Operators, and run commands to manually remove some resources.
+To uninstall {OSSMName} from an existing {product-title} instance and remove its resources, you must delete the control plane, delete the Operators, and run commands to manually remove some resources.
 
 include::modules/ossm-control-plane-remove.adoc[leveloffset=+1]
 

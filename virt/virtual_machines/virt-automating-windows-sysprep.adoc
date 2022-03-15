@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-automating-windows-sysprep"]
 = Automating Windows installation with sysprep
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-automating-windows-sysprep
 
 toc::[]

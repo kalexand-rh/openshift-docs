@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-moving-local-vm-disk-to-different-node"]
 = Moving a local virtual machine disk to a different node
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-moving-local-vm-disk-to-different-node
 
 toc::[]

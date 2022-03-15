@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-dedicated-resources-vm-template"]
 = Enabling dedicated resources for virtual machine templates
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-dedicated-resources-vm-template
 
 toc::[]

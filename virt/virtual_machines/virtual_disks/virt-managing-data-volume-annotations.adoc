@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-virt-managing-data-volume-annotations"]
 = Managing data volume annotations
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-managing-data-volume-annotations
 
 toc::[]

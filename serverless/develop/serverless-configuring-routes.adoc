@@ -2,7 +2,7 @@
 [id="serverless-configuring-routes"]
 = Routing
 :context: serverless-configuring-routes
-include::_attributes/serverless-document-attributes.adoc[]
+
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]

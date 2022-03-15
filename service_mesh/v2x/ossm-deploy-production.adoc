@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ossm-production"]
 = Configuring Service Mesh for production
-include::_attributes/ossm-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ossm-architecture
 toc::[]
 
@@ -9,7 +11,7 @@ When you are ready to move from a basic installation to production, you must con
 
 .Prerequisites
 
-* Install and configure {ProductName}.
+* Install and configure {OSSMName}.
 * Test your configuration in a staging environment.
 
 include::modules/ossm-smcp-prod.adoc[leveloffset=+1]
@@ -18,4 +20,4 @@ include::modules/ossm-smcp-prod.adoc[leveloffset=+1]
 [role="_additional-resources"]
 == Additional resources
 
-* For more information about tuning {ProductShortName} for performance, see xref:../../service_mesh/v2x/ossm-performance-scalability.adoc#ossm-performance-scalability[Performance and scalability].
+* For more information about tuning {OSSMShortName} for performance, see xref:../../service_mesh/v2x/ossm-performance-scalability.adoc#ossm-performance-scalability[Performance and scalability].

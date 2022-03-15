@@ -1,7 +1,7 @@
 :_content-type: ASSEMBLY
 [id="serverless-service-monitoring"]
 = Monitoring Knative services
-include::_attributes/serverless-document-attributes.adoc[]
+
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]

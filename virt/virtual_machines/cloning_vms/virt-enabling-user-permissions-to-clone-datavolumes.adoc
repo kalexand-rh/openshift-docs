@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-enabling-user-permissions-to-clone-datavolumes"]
 = Enabling user permissions to clone data volumes across namespaces
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-enabling-user-permissions-to-clone-datavolumes
 
 toc::[]

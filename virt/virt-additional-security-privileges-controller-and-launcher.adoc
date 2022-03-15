@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-additional-security-privileges-controller-and-launcher"]
 = Additional security privileges granted for kubevirt-controller and virt-launcher
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-additional-security-privileges-controller-and-launcher
 
 toc::[]

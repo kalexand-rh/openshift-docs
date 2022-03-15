@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="deploying-applications-ossm"]
 = Enabling sidecar injection
-include::_attributes/ossm-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: deploying-applications-ossm
 
 toc::[]
@@ -23,7 +25,7 @@ include::modules/ossm-sidecar-injection-env-var.adoc[leveloffset=+1]
 
 == Next steps
 
-Configure {ProductName} features for your environment.
+Configure {OSSMName} features for your environment.
 
 * xref:../../service_mesh/v2x/ossm-security.adoc#ossm-security[Security]
 * xref:../../service_mesh/v2x/ossm-traffic-manage.adoc#ossm-routing-traffic[Traffic management]

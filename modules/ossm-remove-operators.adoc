@@ -7,14 +7,14 @@
 [id="ossm-operatorhub-remove-operators_{context}"]
 = Removing the installed Operators
 
-You must remove the Operators to successfully remove {ProductName}. After you remove the {ProductName} Operator, you must remove the Kiali Operator, the {JaegerName} Operator, and the OpenShift Elasticsearch Operator.
+You must remove the Operators to successfully remove {OSSMName}. After you remove the {OSSMName} Operator, you must remove the Kiali Operator, the {JaegerName} Operator, and the OpenShift Elasticsearch Operator.
 
 [id="ossm-remove-operator-servicemesh_{context}"]
 == Removing the Operators
 
-Follow this procedure to remove the Operators that make up {ProductName}. Repeat the steps for each of the following Operators.
+Follow this procedure to remove the Operators that make up {OSSMName}. Repeat the steps for each of the following Operators.
 
-* {ProductName}
+* {OSSMName}
 * Kiali
 * {JaegerName}
 * OpenShift Elasticsearch

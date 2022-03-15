@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-expanding-virtual-storage-with-blank-disk-images"]
 = Expanding virtual storage by adding blank disk images
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-expanding-virtual-storage-with-blank-disk-images
 
 toc::[]

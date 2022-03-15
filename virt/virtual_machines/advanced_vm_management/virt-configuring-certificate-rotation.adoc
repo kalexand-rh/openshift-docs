@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-configuring-certificate-rotation"]
 = Configuring certificate rotation
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-configuring-certificate-rotation
 
 Configure certificate rotation parameters to replace existing certificates.

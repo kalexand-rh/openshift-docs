@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-pxe-booting"]
 = Configuring PXE booting for virtual machines
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: pxe-booting
 
 toc::[]

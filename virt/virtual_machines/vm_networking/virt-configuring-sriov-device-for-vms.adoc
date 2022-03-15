@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-configuring-sriov-device-for-vms"]
 = Configuring an SR-IOV network device for virtual machines
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-configuring-sriov-device-for-vms
 
 toc::[]

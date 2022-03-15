@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 [id="virt-backing-up-vms"]
 = Backing up virtual machines
 :context: virt-backing-up-vms

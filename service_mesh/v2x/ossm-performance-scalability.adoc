@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ossm-performance-scalability"]
 = Performance and scalability
-include::_attributes/ossm-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: performance-scalability
 
 toc::[]

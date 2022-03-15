@@ -2,7 +2,7 @@
 [id="removing-distributed-tracing"]
 = Removing distributed tracing
 ifndef::jupiter[]
-include::_attributes/distr-tracing-document-attributes.adoc[]
+include::_attributes/common-attributes.adoc[]
 endif::[]
 :context: removing-distributed-tracing
 

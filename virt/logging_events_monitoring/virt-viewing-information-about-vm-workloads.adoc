@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-viewing-information-about-vm-workloads"]
 = Viewing information about virtual machine workloads
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-viewing-information-about-vm-workloads
 
 toc::[]

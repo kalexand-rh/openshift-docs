@@ -8,7 +8,7 @@ Module included in the following assemblies:
 [id="ossm-accessing-jaeger-console_{context}"]
 = Accessing the Jaeger console
 
-To access the Jaeger console you must have {ProductName} installed, {JaegerName} installed and configured.
+To access the Jaeger console you must have {OSSMName} installed, {JaegerName} installed and configured.
 
 The installation process creates a route to access the Jaeger console.
 

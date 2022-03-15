@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-managing-guest-memory"]
 = Managing guest memory
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-managing-guest-memory
 
 toc::[]

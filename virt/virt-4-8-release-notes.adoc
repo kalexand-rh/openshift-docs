@@ -1,6 +1,8 @@
 :_content-type: ASSEMBLY
 [id="virt-4-8-release-notes"]
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 = {RN_BookName}
 :context: virt-4-8-release-notes
 toc::[]

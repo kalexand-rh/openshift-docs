@@ -2,7 +2,7 @@
 [id="distr-tracing-architecture"]
 = Distributed tracing architecture
 ifndef::jupiter[]
-include::_attributes/distr-tracing-document-attributes.adoc[]
+include::_attributes/common-attributes.adoc[]
 endif::[]
 :context: distributed-tracing-architecture
 

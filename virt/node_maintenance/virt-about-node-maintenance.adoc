@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-about-node-maintenance"]
 = About node maintenance
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-node-maintenance
 toc::[]
 

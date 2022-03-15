@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-observing-node-network-state"]
 = Observing node network state
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-observing-node-network-state
 
 toc::[]

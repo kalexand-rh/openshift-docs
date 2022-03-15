@@ -1,5 +1,4 @@
 :_content-type: ASSEMBLY
-include::_attributes/serverless-document-attributes.adoc[]
 [id="serverless-cluster-admin-eventing"]
 = Creating Eventing components in the Administrator perspective
 ifndef::jupiter[]

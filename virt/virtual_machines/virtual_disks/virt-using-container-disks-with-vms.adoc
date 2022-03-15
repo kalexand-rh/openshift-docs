@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-using-container-disks-with-vms"]
 = Using container disks with virtual machines
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-using-container-disks-with-vms
 
 toc::[]

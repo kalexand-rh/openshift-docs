@@ -1,8 +1,11 @@
 :_content-type: ASSEMBLY
 [id="upgrading-jaeger"]
 = Upgrading Jaeger
-include::_attributes/jaeger-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: upgrading-jaeger
+:jaeger: true
 
 toc::[]
 

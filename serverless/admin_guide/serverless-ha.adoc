@@ -1,5 +1,5 @@
 :_content-type: ASSEMBLY
-include::_attributes/serverless-document-attributes.adoc[]
+
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]

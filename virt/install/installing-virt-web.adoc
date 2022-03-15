@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 [id="installing-virt-web"]
 = Installing {VirtProductName} using the web console
 :context: installing-virt-web

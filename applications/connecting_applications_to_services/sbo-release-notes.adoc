@@ -1,12 +1,11 @@
 //OpenShift Service Binding Release Notes
 :_content-type: ASSEMBLY
 [id="servicebinding-release-notes"]
-= Release notes for {servicebinding-title} 
+= Release notes for {servicebinding-title}
 :context: servicebinding-release-notes
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]
-include::_attributes/servicebinding-document-attributes.adoc[]
 
 toc::[]
 

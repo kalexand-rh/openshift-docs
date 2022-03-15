@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-delete-vms"]
 = Deleting virtual machines
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-delete-vms
 
 toc::[]

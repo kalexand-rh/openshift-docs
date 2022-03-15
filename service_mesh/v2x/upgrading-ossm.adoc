@@ -1,12 +1,14 @@
 :_content-type: ASSEMBLY
 [id="upgrading-ossm"]
 = Upgrading Service Mesh
-include::_attributes/ossm-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ossm-upgrade
 
 toc::[]
 
-To access the most current features of {ProductName}, upgrade to the current version, {ProductVersion}.
+To access the most current features of {OSSMName}, upgrade to the current version, {OSSMVersion}.
 
 ////
 The following include statements pull in the module files that comprise the assembly.

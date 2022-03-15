@@ -4,7 +4,6 @@
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
 endif::[]
-include::_attributes/servicebinding-document-attributes.adoc[]
 :context: odc-connecting-an-application-to-a-service-using-the-developer-perspective
 
 [role="_abstract"]

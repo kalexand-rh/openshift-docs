@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-configuring-ip-for-vms"]
 = Configuring IP addresses for virtual machines
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-configuring-ip-for-vms
 
 toc::[]

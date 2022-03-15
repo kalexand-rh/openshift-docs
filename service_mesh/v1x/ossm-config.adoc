@@ -1,8 +1,11 @@
 :_content-type: ASSEMBLY
 [id="ossm-config-v1x"]
 = Configuring Service Mesh
-include::_attributes/ossm-document-attributes-1x.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ossm-config-v1x
+:ossmv1: true
 
 toc::[]
 

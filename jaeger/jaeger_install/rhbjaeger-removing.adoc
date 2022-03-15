@@ -1,8 +1,11 @@
 :_content-type: ASSEMBLY
 [id="removing-jaeger"]
 = Removing Jaeger
-include::_attributes/jaeger-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: removing-jaeger
+:jaeger: true
 
 toc::[]
 

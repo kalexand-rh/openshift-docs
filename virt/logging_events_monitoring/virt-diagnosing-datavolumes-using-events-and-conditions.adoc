@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="virt-diagnosing-datavolumes-using-events-and-conditions"]
 = Diagnosing data volumes using events and conditions
-include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-diagnosing-datavolumes-using-events-and-conditions
 
 toc::[]

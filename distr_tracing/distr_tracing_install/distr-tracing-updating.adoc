@@ -2,7 +2,7 @@
 [id="upgrading-distributed-tracing"]
 = Upgrading distributed tracing
 ifndef::jupiter[]
-include::_attributes/distr-tracing-document-attributes.adoc[]
+include::_attributes/common-attributes.adoc[]
 endif::[]
 :context: upgrading-distributed-tracing
 

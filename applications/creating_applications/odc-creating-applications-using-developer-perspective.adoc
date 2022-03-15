@@ -3,7 +3,6 @@
 = Creating applications using the Developer perspective
 ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
-include::_attributes/serverless-document-attributes.adoc[]
 endif::[]
 :context: odc-creating-applications-using-developer-perspective
 
