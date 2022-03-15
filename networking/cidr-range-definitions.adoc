@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cidr-range-definitions"]
 = CIDR Range Definitions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cidr-range-definitions
 
 toc::[]
