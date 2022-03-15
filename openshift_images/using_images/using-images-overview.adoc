@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-images-overview"]
 = Using images overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-images-overview
 
 toc::[]

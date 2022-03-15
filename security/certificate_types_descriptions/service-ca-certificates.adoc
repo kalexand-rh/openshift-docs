@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cert-types-service-ca-certificates"]
 = Service CA certificates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cert-types-service-ca-certificates
 
 toc::[]

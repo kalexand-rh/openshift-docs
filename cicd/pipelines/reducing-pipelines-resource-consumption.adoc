@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="reducing-pipelines-resource-consumption"]
 = Reducing resource consumption of OpenShift Pipelines
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: reducing-pipelines-resource-consumption
 
 toc::[]

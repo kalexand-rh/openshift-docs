@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-operating-system-issues"]
 = Troubleshooting operating system issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-operating-system-issues
 
 toc::[]

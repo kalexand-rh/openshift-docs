@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-ibm-cloud-network-customizations"]
 = Installing a cluster on IBM Cloud with network customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-ibm-cloud-network-customizations
 
 toc::[]

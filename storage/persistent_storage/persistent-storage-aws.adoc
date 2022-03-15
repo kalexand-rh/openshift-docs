@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-aws"]
 = Persistent storage using AWS Elastic Block Store
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-aws
 
 toc::[]

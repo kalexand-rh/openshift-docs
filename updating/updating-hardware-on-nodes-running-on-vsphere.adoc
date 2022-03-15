@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="updating-hardware-on-nodes-running-on-vsphere"]
 = Updating hardware on nodes running on vSphere
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: updating-hardware-on-nodes-running-in-vsphere
 
 toc::[]

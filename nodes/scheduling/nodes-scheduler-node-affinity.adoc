@@ -2,7 +2,9 @@
 :context: nodes-scheduler-node-affinity
 [id="nodes-scheduler-node-affinity"]
 = Controlling pod placement on nodes using node affinity rules
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

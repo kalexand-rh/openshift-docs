@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ipi-install-post-installation-configuration"]
 = Installer-provisioned post-installation configuration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ipi-install-post-installation-configuration
 
 toc::[]

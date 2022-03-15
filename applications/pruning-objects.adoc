@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="pruning-objects"]
 = Pruning objects to reclaim resources
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: pruning-objects
 
 toc::[]

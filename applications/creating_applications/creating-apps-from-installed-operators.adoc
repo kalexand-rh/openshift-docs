@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-apps-from-installed-operators"]
 = Creating applications from installed Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-apps-from-installed-operators
 
 toc::[]

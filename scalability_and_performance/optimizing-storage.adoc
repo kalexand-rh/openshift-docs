@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="optimizing-storage"]
 = Optimizing storage
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :gluster: GlusterFS
 :gluster-native: Containerized GlusterFS
 :gluster-external: External GlusterFS

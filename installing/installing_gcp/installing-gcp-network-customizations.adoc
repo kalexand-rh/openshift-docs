@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-network-customizations"]
 = Installing a cluster on GCP with network customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-network-customizations
 
 toc::[]

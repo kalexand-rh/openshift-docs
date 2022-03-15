@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-registry-storage-openstack"]
 = Configuring the registry for {rh-openstack}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-registry-storage-openstack
 
 toc::[]

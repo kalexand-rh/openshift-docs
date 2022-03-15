@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-user-infra-vpc"]
 = Installing a cluster into a shared VPC on GCP using Deployment Manager templates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-user-infra-vpc
 
 toc::[]

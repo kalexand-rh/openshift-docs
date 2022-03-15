@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="windows-container-overview"]
 = Windows Container Support for OpenShift overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: windows-container-overview
 
 toc::[]

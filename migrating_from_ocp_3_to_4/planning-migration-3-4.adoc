@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="planning-migration-3-4"]
 = Differences between {product-title} 3 and 4
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: planning-migration-3-4
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="poison-pill-operator-remediate-nodes"]
 = Remediating nodes with the Poison Pill Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: poison-pill-operator-remediate-nodes
 
 toc::[]

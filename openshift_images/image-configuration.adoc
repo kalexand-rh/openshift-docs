@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="image-configuration"]
 = Image configuration resources
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: image-configuration
 
 toc::[]

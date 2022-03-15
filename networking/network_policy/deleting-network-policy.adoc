@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="deleting-network-policy"]
 = Deleting a network policy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: deleting-network-policy
 
 toc::[]

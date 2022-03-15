@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-understanding-dependency-resolution"]
 = Operator Lifecycle Manager dependency resolution
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-understanding-dependency-resolution
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-ingress-cluster-traffic-aws-network-load-balancer"]
 = Configuring ingress cluster traffic on AWS using a Network Load Balancer
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-ingress-cluster-traffic-aws-network-load-balancer
 
 toc::[]

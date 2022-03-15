@@ -2,7 +2,9 @@
 //Jenkins-Tekton-Migration
 [id="migrating-from-jenkins-to-tekton_{context}"]
 = Migrating from Jenkins to Tekton
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: migrating-from-jenkins-to-tekton
 
 toc::[]

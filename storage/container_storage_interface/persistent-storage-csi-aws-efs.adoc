@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-csi-aws-efs"]
 = AWS Elastic File Service CSI Driver Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-csi-aws-efs
 
 toc::[]

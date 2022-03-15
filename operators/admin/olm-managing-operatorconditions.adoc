@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-managing-operatorconditions"]
 = Managing Operator conditions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-managing-operatorconditions
 
 toc::[]

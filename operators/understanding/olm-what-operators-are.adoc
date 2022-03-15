@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-what-operators-are"]
 = What are Operators?
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-what-operators-are
 
 toc::[]

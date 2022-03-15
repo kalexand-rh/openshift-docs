@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="compatibility-guidelines"]
 = Understanding API compatibility guidelines
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: compatibility-guidelines
 
 toc::[]

@@ -2,7 +2,9 @@
 include::_attributes/serverless-document-attributes.adoc[]
 [id="serverless-cluster-admin-serving"]
 = Creating Knative Serving components in the Administrator perspective
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: serverless-cluster-admin-serving
 
 toc::[]

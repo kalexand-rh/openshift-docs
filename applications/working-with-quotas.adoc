@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="working-with-quotas"]
 = Working with quotas
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: working-with-quotas
 
 toc::[]

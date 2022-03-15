@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="manually-scaling-machineset"]
 = Manually scaling a machine set
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: manually-scaling-machineset
 
 toc::[]

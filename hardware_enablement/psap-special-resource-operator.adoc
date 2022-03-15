@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="special-resource-operator"]
 = Special Resource Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: special-resource-operator
 
 toc::[]

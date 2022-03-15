@@ -3,7 +3,9 @@
 // Explains route configuration.
 [id="route-configuration"]
 = Route configuration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: route-configuration
 
 toc::[]

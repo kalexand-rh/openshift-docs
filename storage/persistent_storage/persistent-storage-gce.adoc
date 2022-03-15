@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-using-gce"]
 = Persistent storage using GCE Persistent Disk
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-gce
 
 toc::[]

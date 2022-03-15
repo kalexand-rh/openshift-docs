@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-s2i"]
 = Troubleshooting the Source-to-Image process
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-s2i
 
 toc::[]

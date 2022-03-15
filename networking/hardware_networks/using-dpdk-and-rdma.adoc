@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-dpdk-and-rdma"]
 = Using DPDK and RDMA
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-dpdk-and-rdma
 
 toc::[]

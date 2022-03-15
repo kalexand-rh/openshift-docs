@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-knative-eventing"]
 = Installing Knative Eventing
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 :context: installing-knative-eventing
 

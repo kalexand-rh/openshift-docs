@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-rbac"]
 = Using RBAC to define and apply permissions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-rbac
 
 toc::[]

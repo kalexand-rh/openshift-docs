@@ -2,7 +2,9 @@
 :context: cluster-logging-deploying
 [id="cluster-logging-deploying"]
 = Installing OpenShift Logging
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

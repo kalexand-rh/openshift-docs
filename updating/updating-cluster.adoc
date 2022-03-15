@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="updating-cluster"]
 = Updating a cluster within a minor version from the web console
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: updating-cluster
 
 toc::[]

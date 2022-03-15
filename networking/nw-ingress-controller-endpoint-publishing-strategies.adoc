@@ -1,6 +1,8 @@
 [id="nw-ingress-controller-endpoint-publishing-strategies"]
 = Configuring the Ingress Controller endpoint publishing strategy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nw-ingress-controller-endpoint-publishing-strategies
 
 toc::[]

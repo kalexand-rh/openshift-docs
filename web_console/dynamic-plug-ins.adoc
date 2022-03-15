@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="adding-dynamic-plugin-to-console"]
 = Adding a dynamic plug-in to the {product-title} web console
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: dynamic-plugins
 
 toc::[]

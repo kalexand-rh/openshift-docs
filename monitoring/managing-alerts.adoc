@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="managing-alerts"]
 = Managing alerts
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: managing-alerts
 
 toc::[]

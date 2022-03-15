@@ -2,7 +2,9 @@
 :context: cluster-logging-must-gather
 [id="cluster-logging-must-gather"]
 = Collecting logging data for Red Hat Support
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

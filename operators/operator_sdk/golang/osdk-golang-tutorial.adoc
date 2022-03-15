@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-golang-tutorial"]
 = Operator SDK tutorial for Go-based Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-golang-tutorial
 
 toc::[]

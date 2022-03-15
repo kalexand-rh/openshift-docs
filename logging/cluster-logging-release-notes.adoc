@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cluster-logging-release-notes"]
 = Release notes for Red Hat OpenShift Logging 5.3
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cluster-logging-release-notes-v5x
 
 toc::[]

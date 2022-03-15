@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="tls-security-profiles"]
 = Configuring TLS security profiles
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: tls-security-profiles
 
 toc::[]

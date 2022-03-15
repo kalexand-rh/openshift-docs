@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='op-tkn-reference']
 = OpenShift Pipelines tkn reference
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: op-tkn-reference
 
 toc::[]

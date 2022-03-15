@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-bare-metal-network-customizations"]
 = Installing a user-provisioned bare metal cluster with network customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-bare-metal-network-customizations
 
 toc::[]

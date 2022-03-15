@@ -2,7 +2,9 @@
 :context: post-install-node-tasks
 [id="post-install-node-tasks"]
 = Post-installation node tasks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

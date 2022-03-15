@@ -2,7 +2,9 @@
 :context: metering-uninstall
 [id="metering-uninstall"]
 = Uninstalling metering
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

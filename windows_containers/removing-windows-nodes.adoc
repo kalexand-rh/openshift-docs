@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="removing-windows-nodes"]
 = Removing Windows nodes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: removing-windows-nodes
 
 toc::[]

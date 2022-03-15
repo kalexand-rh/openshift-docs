@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="triggering-updates-on-imagestream-changes"]
 = Triggering updates on image stream changes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: triggering-updates-on-imagestream-changes
 
 toc::[]

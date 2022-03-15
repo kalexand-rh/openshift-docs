@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-imagestreams-with-kube-resources"]
 = Using image streams with Kubernetes resources
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-imagestreams-with-kube-resources
 
 toc::[]

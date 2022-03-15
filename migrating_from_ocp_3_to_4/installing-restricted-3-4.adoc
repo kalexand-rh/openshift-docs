@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-restricted-3-4"]
 = Installing the Migration Toolkit for Containers in a restricted network environment
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-restricted-3-4
 :installing-restricted-3-4:
 

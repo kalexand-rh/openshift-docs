@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-arch"]
 = Operator Lifecycle Manager architecture
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-arch
 
 toc::[]

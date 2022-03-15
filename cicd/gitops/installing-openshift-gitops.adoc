@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="getting-started-with-openshift-gitops"]
 = Installing OpenShift GitOps
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-openshift-gitops
 
 toc::[]

@@ -2,7 +2,9 @@
 [id="virt-efi-mode-for-vms"]
 = Using EFI mode for virtual machines
 include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-efi-mode-for-vms
 
 toc::[]

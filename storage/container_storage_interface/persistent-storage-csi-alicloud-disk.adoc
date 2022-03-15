@@ -1,6 +1,8 @@
 [id="persistent-storage-csi-alicloud-disk"]
 = AliCloud Disk CSI Driver Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-csi-alicloud-disk
 
 toc::[]

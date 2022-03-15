@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="monitoring-sandboxed-containers"]
 = Monitoring {sandboxed-containers-first}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: monitoring-sandboxed-containers
 
 toc::[]

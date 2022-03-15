@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="custom-builds-buildah"]
 = Custom image builds with Buildah
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: custom-builds-buildah
 
 toc::[]

@@ -2,7 +2,9 @@
 :context: nodes-pods-autoscaling
 [id='nodes-pods-autoscaling']
 = Automatically scaling pods with the horizontal pod autoscaler
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

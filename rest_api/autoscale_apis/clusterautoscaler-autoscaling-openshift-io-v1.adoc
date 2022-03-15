@@ -3,7 +3,9 @@
 [id="clusterautoscaler-autoscaling-openshift-io-v1"]
 = ClusterAutoscaler [autoscaling.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

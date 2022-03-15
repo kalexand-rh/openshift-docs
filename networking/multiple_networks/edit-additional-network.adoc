@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="edit-additional-network"]
 = Editing an additional network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: edit-additional-network
 
 toc::[]

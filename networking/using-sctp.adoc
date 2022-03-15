@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-sctp"]
 = Using the Stream Control Transmission Protocol (SCTP) on a bare metal cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-sctp
 
 toc::[]

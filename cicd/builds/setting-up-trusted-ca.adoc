@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="setting-up-trusted-ca"]
 = Setting up additional trusted certificate authorities for builds
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: setting-up-trusted-ca
 
 toc::[]

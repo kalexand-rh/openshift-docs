@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="setting-compute-resource-quota-for-openshift-pipelines"]
 = Setting compute resource quota for OpenShift Pipelines
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: setting-compute-resource-quota-for-openshift-pipelines
 
 toc::[]

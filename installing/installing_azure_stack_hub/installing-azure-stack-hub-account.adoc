@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-azure-stack-hub-account"]
 = Configuring an Azure Stack Hub account
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-stack-hub-account
 
 toc::[]

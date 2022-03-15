@@ -2,7 +2,9 @@
 :context: nodes-scheduler-node-selectors
 [id="nodes-scheduler-node-selectors"]
 = Placing pods on specific nodes using node selectors
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

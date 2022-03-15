@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-builds_{context}"]
 = Troubleshooting builds
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-builds
 
 toc::[]

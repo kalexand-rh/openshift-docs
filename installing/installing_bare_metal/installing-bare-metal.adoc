@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-bare-metal"]
 = Installing a user-provisioned cluster on bare metal
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-bare-metal
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-dns-records-on-gcp"]
 = Creating DNS records on GCP
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-dns-records-on-gcp
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-sriov-net-attach"]
 = Configuring an SR-IOV Ethernet network attachment
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-sriov-net-attach
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-using-azure-file"]
 = Persistent storage using Azure File
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-azure-file
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="openshift-web-console"]
 = Creating and building an application using the web console
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: openshift-web-console
 
 toc::[]

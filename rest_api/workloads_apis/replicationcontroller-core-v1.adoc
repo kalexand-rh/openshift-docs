@@ -1,7 +1,9 @@
 [id="replicationcontroller-core-v1"]
 = ReplicationController [core/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

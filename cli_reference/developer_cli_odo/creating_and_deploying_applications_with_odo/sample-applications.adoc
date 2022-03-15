@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="sample-applications"]
 = Sample applications
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-sample-applications
 
 toc::[]

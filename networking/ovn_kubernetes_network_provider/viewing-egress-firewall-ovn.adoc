@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="viewing-egress-firewall-ovn"]
 = Viewing an egress firewall for a project
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: viewing-egress-firewall-ovn
 
 toc::[]

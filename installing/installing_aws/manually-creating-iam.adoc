@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="manually-creating-iam-aws"]
 = Manually creating IAM for AWS
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: manually-creating-iam-aws
 
 //TO-DO: this should be one file for AWS, Azure, and GCP with conditions for specifics.

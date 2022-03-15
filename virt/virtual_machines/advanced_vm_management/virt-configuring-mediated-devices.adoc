@@ -2,7 +2,9 @@
 [id="virt-configuring-mediated-devices"]
 = Configuring mediated devices
 include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-configuring-mediated-devices
 
 toc::[]

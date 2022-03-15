@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-webhooks"]
 = Webhook management in Operator Lifecycle Manager
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-webhooks
 
 toc::[]

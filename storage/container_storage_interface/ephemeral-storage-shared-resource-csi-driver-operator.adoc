@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ephemeral-storage-shared-resource-csi-driver-operator"]
 = Shared Resource CSI Driver Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ephemeral-storage-shared-resource-csi-driver-operator
 
 toc::[]

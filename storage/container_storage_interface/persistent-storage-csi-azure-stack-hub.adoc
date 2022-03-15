@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-csi-azure-stack-hub"]
 = Azure Stack Hub CSI Driver Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-csi-azure-stack-hub
 
 toc::[]

@@ -2,7 +2,9 @@
 :context: nodes-cluster-enabling
 [id="nodes-cluster-enabling"]
 = Enabling features using feature gates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

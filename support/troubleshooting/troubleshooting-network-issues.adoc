@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-network-issues"]
 = Troubleshooting network issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-network-issues
 
 toc::[]

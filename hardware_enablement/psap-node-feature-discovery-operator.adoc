@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="node-feature-discovery-operator"]
 = Node Feature Discovery Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: node-feature-discovery-operator
 
 toc::[]

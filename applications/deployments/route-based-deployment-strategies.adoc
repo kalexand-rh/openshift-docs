@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="route-based-deployment-strategies"]
 = Using route-based deployment strategies
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: route-based-deployment-strategies
 
 toc::[]

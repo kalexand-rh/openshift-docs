@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-private"]
 = Installing a private cluster on GCP
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-private
 
 toc::[]

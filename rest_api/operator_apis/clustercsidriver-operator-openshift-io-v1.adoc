@@ -3,7 +3,9 @@
 [id="clustercsidriver-operator-openshift-io-v1"]
 = ClusterCSIDriver [operator.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

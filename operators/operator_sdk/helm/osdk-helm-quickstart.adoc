@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-helm-quickstart"]
 = Getting started with Operator SDK for Helm-based Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-helm-quickstart
 
 toc::[]

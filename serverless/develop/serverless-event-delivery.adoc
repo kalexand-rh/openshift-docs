@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="serverless-event-delivery"]
 = Event delivery
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 :context: serverless-event-delivery
 

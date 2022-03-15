@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="dedicated-networking"]
 = Neworking
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: access
 
 toc::[]

@@ -2,7 +2,9 @@
 [id="health-information-for-resources-deployment"]
 = Monitoring health information for application resources and deployments
 :context: health-information-for-resources-deployment
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

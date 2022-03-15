@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-templates"]
 = Using templates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-templates
 
 toc::[]

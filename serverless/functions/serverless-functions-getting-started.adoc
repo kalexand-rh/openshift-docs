@@ -2,7 +2,9 @@
 [id="serverless-functions-getting-started"]
 = Getting started with functions
 :context: serverless-functions-getting-started
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

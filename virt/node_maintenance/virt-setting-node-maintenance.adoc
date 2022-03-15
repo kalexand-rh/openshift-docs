@@ -2,7 +2,9 @@
 [id="virt-setting-node-maintenance"]
 = Setting a node to maintenance mode
 include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-setting-node-maintenance
 
 toc::[]

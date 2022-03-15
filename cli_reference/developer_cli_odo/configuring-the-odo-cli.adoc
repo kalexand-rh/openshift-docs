@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='configuring-the-odo-cli']
 = Configuring the odo CLI
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-the-odo-cli
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="provisioning-metal3-io-v1alpha1"]
 = Provisioning [metal3.io/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id=creating-a-java-application-with-a-database]
 = Creating a Java application with a database
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-a-java-application-with-a-database
 toc::[]
 

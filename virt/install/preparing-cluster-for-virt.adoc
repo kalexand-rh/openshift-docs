@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/virt-document-attributes.adoc[]
 [id="preparing-cluster-for-virt"]
 = Configuring your cluster for {VirtProductName}

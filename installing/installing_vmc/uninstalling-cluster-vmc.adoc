@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-cluster-vmc"]
 = Uninstalling a cluster on VMC
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstalling-cluster-vmc
 
 toc::[]

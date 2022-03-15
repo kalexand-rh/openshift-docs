@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-migrating-to-v0-1-0"]
 = Migrating to Operator SDK v0.1.0
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-migrating-to-v0-1-0
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-monitoring-issues"]
 = Troubleshooting monitoring issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-monitoring-issues
 
 toc::[]

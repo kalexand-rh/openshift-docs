@@ -2,7 +2,9 @@
 
 [id="using-images-source-to-image-nodejs"]
 = Node.js
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-images-source-to-image-nodejs
 toc::[]
 

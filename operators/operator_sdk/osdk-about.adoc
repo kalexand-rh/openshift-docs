@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-about"]
 = About the Operator SDK
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-about
 
 toc::[]

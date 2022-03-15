@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="driver-toolkit"]
 = Driver Toolkit
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: driver-toolkit
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-images"]
 = Understanding containers, images, and image streams
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: images-understand
 
 toc::[]

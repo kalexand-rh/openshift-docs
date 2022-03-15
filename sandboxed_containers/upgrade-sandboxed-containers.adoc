@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="upgrade-sandboxed-containers"]
 = Upgrade {sandboxed-containers-first}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: upgrade-sandboxed-containers
 
 toc::[]

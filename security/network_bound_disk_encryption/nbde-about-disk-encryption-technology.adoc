@@ -2,7 +2,9 @@
 // CNF-2127 assembly
 [id="nbde-about-disk-encryption-technology"]
 = About disk encryption technology
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nbde-implementation
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-s21-images"]
 = Source-to-image
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-s21-images
 
 toc::[]

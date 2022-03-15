@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-ingress"]
 = Ingress Operator in {product-title}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-ingress
 
 toc::[]

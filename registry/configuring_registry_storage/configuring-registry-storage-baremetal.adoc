@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-registry-storage-baremetal"]
 = Configuring the registry for bare metal
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-registry-storage-baremetal
 
 toc::[]

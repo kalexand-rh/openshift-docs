@@ -2,7 +2,9 @@
 :context: nodes-containers-projected-volumes
 [id="nodes-containers-projected-volumes"]
 = Mapping volumes using projected volumes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="managing-cli-profiles"]
 = Managing CLI profiles
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: managing-cli-profiles
 
 toc::[]

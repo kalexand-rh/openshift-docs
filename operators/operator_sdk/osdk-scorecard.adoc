@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-scorecard"]
 = Validating Operators using the scorecard tool
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-scorecard
 
 toc::[]

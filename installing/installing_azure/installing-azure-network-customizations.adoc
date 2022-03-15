@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-azure-network-customizations"]
 = Installing a cluster on Azure with network customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-network-customizations
 
 toc::[]

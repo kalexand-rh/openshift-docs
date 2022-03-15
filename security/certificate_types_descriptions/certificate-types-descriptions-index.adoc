@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ocp-certificates"]
 = Certificate types and descriptions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ocp-certificates
 
 toc::[]

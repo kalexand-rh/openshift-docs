@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-deploy"]
 = Deploying containers
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-deploy
 
 toc::[]

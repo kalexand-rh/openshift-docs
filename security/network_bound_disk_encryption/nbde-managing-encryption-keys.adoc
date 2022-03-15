@@ -2,7 +2,9 @@
 // CNF-2127 assembly
 [id="nbde-managing-encryption-keys"]
 = Tang server encryption key management
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nbde-implementation
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-pipelines"]
 = Uninstalling OpenShift Pipelines
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstalling-pipelines
 
 toc::[]

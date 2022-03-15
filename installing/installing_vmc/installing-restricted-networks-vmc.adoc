@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-restricted-networks-vmc"]
 = Installing a cluster on VMC in a restricted network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-restricted-networks-vmc
 
 toc::[]

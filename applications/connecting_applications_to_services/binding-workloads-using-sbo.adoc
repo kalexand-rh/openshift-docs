@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="binding-workloads-using-sbo"]
 = Binding workloads using Service Binding Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/servicebinding-document-attributes.adoc[]
 :context: binding-workloads-using-sbo
 

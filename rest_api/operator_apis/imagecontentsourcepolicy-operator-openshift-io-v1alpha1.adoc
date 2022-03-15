@@ -3,7 +3,9 @@
 [id="imagecontentsourcepolicy-operator-openshift-io-v1alpha1"]
 = ImageContentSourcePolicy [operator.openshift.io/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

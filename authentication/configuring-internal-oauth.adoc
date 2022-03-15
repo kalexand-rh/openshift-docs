@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-internal-oauth"]
 = Configuring the internal OAuth server
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-internal-oauth
 
 toc::[]

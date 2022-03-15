@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-odo"]
 = Understanding odo
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-odo
 
 toc::[]

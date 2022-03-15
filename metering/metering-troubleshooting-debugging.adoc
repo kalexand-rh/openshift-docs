@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metering-troubleshooting-debugging"]
 = Troubleshooting and debugging metering
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metering-troubleshooting-debugging
 
 toc::[]

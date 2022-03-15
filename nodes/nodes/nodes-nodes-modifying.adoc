@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-nodes-modifying"]
 = Modifying existing nodes in your {product-title} cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-nodes-modifying
 
 toc::[]

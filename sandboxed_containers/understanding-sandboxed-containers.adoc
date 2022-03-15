@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-sandboxed-containers"]
 = Understanding {sandboxed-containers-first}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/virt-document-attributes.adoc[]
 
 :context: understanding-sandboxed-containers

@@ -2,7 +2,9 @@
 :context: nodes-pods-configuring
 [id="nodes-pods-configuring"]
 = Configuring an {product-title} cluster for pods
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

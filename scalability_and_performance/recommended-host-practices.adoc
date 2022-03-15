@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="recommended-host-practices"]
 = Recommended host practices
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/ossm-document-attributes.adoc[]
 :context:
 

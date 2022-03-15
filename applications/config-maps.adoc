@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="config-maps"]
 = Using config maps with applications
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: config-maps
 
 toc::[]

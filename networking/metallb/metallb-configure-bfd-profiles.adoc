@@ -1,6 +1,8 @@
 [id="metallb-configure-bfd-profiles"]
 = Configuring MetalLB BFD profiles
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configure-metallb-bfd-profiles
 
 toc::[]

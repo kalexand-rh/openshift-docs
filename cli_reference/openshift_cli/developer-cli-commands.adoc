@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cli-developer-commands"]
 = OpenShift CLI developer command reference
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cli-developer-commands
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="schedule-and-quota-apis"]
 = Schedule and quota APIs
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

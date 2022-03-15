@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-project-other-user"]
 = Creating a project as another user
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-project-other-user
 
 toc::[]

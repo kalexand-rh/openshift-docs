@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="premigration-checklists-mtc"]
 = Premigration checklists
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: premigration-checklists-mtc
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="serverless-custom-tls-cert-domain-mapping"]
 = Using a custom TLS certificate for domain mapping
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 include::_attributes/ossm-document-attributes.adoc[]
 :context: serverless-custom-tls-cert-domain-mapping

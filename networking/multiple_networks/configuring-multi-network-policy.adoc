@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-multi-network-policy"]
 = Configuring multi-network policy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-multi-network-policy
 
 toc::[]

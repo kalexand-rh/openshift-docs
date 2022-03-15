@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="removing-egress-firewall"]
 = Removing an egress firewall from a project
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: openshift-sdn-egress-firewall
 
 toc::[]

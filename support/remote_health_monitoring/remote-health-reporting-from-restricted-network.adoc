@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="remote-health-reporting-from-restricted-network"]
 = Using remote health reporting in a restricted network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: remote-health-reporting-from-restricted-network
 
 toc::[]

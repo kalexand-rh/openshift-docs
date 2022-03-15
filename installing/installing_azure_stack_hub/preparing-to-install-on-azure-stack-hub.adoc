@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="preparing-to-install-on-azure-stack-hub"]
 = Preparing to install on Azure Stack Hub
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: preparing-to-install-on-azure-stack-hub
 
 toc::[]

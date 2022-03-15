@@ -3,7 +3,9 @@
 [id="authorization-apis"]
 = Authorization APIs
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

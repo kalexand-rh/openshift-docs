@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ipi-install-troubleshooting"]
 = Troubleshooting
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ipi-install-troubleshooting
 
 toc::[]

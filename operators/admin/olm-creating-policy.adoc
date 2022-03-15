@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-creating-policy"]
 = Allowing non-cluster administrators to install Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-creating-policy
 
 toc::[]

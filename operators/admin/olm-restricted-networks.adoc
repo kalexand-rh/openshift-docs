@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-restricted-networks"]
 = Using Operator Lifecycle Manager on restricted networks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-restricted-networks
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="enabling-windows-container-workloads"]
 = Enabling Windows container workloads
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: enabling-windows-container-workloads
 
 toc::[]

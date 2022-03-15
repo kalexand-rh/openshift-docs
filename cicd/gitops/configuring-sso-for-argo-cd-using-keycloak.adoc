@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-sso-for-argo-cd-using-keycloak"]
 = Configuring SSO for Argo CD using Keycloak
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-sso-for-argo-cd-using-keycloak
 
 toc::[]

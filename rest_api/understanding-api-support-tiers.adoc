@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-api-support-tiers"]
 = Understanding API tiers
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-api-tiers
 
 toc::[]

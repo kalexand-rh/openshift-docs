@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="backup-restore-overview"]
 = Backup and restore
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: backup-restore-overview
 :backup-restore-overview:
 :velero-domain: velero.io

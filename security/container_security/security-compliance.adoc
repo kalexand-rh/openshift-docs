@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-compliance"]
 = Understanding compliance
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-compliance
 
 toc::[]

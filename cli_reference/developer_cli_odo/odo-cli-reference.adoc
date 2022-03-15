@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='odo-cli-reference']
 = odo CLI reference
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: odo-cli-reference
 
 toc::[]

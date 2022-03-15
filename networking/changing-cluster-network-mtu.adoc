@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="changing-cluster-network-mtu"]
 = Changing the MTU for the cluster network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: changing-cluster-network-mtu
 
 toc::[]

@@ -2,7 +2,9 @@
 :_content-type: ASSEMBLY
 [id="crd-extending-api-with-crds"]
 = Extending the Kubernetes API with custom resource definitions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: crd-extending-api-with-crds
 
 toc::[]

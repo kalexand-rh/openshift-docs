@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-oauth-clients"]
 = Configuring OAuth clients
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-oauth-clients
 
 toc::[]

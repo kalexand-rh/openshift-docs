@@ -2,7 +2,9 @@
 :context: cluster-logging-tolerations
 [id="cluster-logging-tolerations"]
 = Using tolerations to control OpenShift Logging pod placement
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

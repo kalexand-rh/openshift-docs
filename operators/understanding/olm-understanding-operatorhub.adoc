@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-understanding-operatorhub"]
 = Understanding OperatorHub
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-understanding-operatorhub
 
 toc::[]

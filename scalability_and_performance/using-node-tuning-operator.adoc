@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-node-tuning-operator"]
 = Using the Node Tuning Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: node-tuning-operator
 
 toc::[]

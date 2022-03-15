@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="graceful-restart-cluster"]
 = Restarting the cluster gracefully
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: graceful-restart-cluster
 
 toc::[]

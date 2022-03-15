@@ -3,7 +3,9 @@
 [id="gitops-release-notes"]
 = {gitops-title} release notes
 :context: gitops-release-notes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

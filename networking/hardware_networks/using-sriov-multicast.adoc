@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-sriov-multicast"]
 = Using high performance multicast
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-sriov-multicast
 
 toc::[]

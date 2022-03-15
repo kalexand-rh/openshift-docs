@@ -3,7 +3,9 @@
 [id="persistentvolumeclaim-v1"]
 = PersistentVolumeClaim [v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

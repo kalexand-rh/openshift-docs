@@ -3,7 +3,9 @@
 [id="rbac-apis"]
 = RBAC APIs
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

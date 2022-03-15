@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='installing-tkn']
 = Installing tkn
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-tkn
 
 toc::[]

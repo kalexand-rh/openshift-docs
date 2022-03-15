@@ -2,7 +2,9 @@
 
 [id="web-console"]
 = Accessing the web console
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: web-console
 
 toc::[]

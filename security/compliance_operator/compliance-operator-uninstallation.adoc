@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="compliance-operator-uninstallation_{context}"]
 = Uninstalling the Compliance Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: compliance-operator-uninstallation
 
 toc::[]

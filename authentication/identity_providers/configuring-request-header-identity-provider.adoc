@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-request-header-identity-provider"]
 = Configuring a request header identity provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-request-header-identity-provider
 
 toc::[]

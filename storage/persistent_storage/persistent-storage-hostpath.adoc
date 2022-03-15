@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-using-hostpath"]
 = Persistent storage using hostPath
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-hostpath
 
 toc::[]

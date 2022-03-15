@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-configuring-proxy-support"]
 = Configuring proxy support in Operator Lifecycle Manager
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-configuring-proxy-support
 
 toc::[]

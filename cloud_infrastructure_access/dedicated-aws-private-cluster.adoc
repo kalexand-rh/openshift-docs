@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="dedicated-aws-private-cluster"]
 = Configuring a private cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: dedicated-private-cluster
 
 toc::[]

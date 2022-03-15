@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="converting-to-dual-stack"]
 = Converting to IPv4/IPv6 dual-stack networking
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: converting-to-dual-stack
 
 toc::[]

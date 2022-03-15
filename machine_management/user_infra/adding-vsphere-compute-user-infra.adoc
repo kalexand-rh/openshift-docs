@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="adding-vsphere-compute-user-infra"]
 = Adding compute machines to vSphere
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: adding-vsphere-compute-user-infra
 
 toc::[]

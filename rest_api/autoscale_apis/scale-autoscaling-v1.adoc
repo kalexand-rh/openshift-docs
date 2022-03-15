@@ -3,7 +3,9 @@
 [id="scale-autoscaling-v1"]
 = Scale [autoscaling/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

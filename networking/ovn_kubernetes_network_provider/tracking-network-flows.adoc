@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="tracking-network-flows"]
 = Tracking network flows
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: tracking-network-flows
 
 toc::[]

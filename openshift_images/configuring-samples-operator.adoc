@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-samples-operator"]
 = Configuring the Cluster Samples Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-samples-operator
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="consoleclidownload-console-openshift-io-v1"]
 = ConsoleCLIDownload [console.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

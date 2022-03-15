@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="manually-creating-iam-gcp"]
 = Manually creating IAM for GCP
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: manually-creating-iam-gcp
 
 toc::[]

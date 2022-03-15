@@ -1,6 +1,8 @@
 :_content-type: ASSEMBLY
 include::_attributes/serverless-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 [id="cluster-logging-serverless"]
 = Using OpenShift Logging with {ServerlessProductName}
 :context: cluster-logging-serverless

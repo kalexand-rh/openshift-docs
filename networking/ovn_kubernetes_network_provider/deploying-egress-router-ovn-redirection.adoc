@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="deploying-egress-router-ovn-redirection"]
 = Deploying an egress router pod in redirect mode
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: deploying-egress-router-ovn-redirection
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="serverless-functions-project-configuration"]
 = Function project configuration in func.yaml
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 :context: serverless-functions-yaml
 

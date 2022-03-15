@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="add-service-serving"]
 = Securing service traffic using service serving certificate secrets
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: service-serving-certificate
 
 toc::[]

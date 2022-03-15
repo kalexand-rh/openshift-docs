@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="odc-working-with-helm-releases"]
 = Working with Helm releases
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: working-with-helm-releases
 
 toc::[]

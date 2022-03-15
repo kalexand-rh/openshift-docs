@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-azure-customizations"]
 = Installing a cluster on Azure with customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-customizations
 
 toc::[]

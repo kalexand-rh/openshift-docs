@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-mirroring-creating-registry"]
 = Creating a mirror registry
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-mirroring-creating-registry
 
 toc::[]

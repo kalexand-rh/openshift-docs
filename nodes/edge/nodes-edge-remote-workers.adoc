@@ -2,7 +2,9 @@
 :context: nodes-edge-remote-workers
 [id="nodes-edge-remote-workers"]
 = Using remote worker nodes at the network edge
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cco-mode-manual"]
 = Using manual mode
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cco-mode-manual
 
 toc::[]

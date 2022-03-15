@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-hardening"]
 = Hardening {op-system}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-hardening
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metering-configure-persistent-storage"]
 = Configuring persistent storage
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metering-configure-persistent-storage
 
 toc::[]

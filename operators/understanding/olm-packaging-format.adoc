@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-packaging-format"]
 = Operator Framework packaging format
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-packaging-format
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-sriov-ib-attach"]
 = Configuring an SR-IOV InfiniBand network attachment
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-sriov-ib-attach
 
 toc::[]

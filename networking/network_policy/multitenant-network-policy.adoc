@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="multitenant-network-policy"]
 = Configuring multitenant isolation with network policy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: multitenant-network-policy
 
 toc::[]

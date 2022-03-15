@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cert-types-control-plane-certificates"]
 = Control plane certificates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cert-types-control-plane-certificates
 
 toc::[]

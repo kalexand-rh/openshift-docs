@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="tagging-images"]
 = Tagging images
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: tagging-images
 
 toc::[]

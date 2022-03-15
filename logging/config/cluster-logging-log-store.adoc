@@ -2,7 +2,9 @@
 :context: cluster-logging-store
 [id="cluster-logging-store"]
 = Configuring the log store
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

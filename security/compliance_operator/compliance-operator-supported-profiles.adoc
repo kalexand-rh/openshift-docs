@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="compliance-operator-supported-profiles"]
 = Supported compliance profiles
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: compliance-operator-supported-profiles
 
 There are several profiles available as part of the Compliance Operator (CO) installation.

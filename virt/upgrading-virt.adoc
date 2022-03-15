@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="upgrading-virt"]
 include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 = Updating {VirtProductName}
 :context: upgrading-virt
 

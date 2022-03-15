@@ -2,7 +2,9 @@
 :context: cluster-logging-upgrading
 [id="cluster-logging-upgrading"]
 = Updating OpenShift Logging
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

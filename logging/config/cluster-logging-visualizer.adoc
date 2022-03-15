@@ -2,7 +2,9 @@
 :context: cluster-logging-visualizer
 [id="cluster-logging-visualizer"]
 = Configuring the log visualizer
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

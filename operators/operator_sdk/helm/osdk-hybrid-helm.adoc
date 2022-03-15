@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-hybrid-helm"]
 = Operator SDK tutorial for Hybrid Helm Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-hybrid-helm
 
 toc::[]

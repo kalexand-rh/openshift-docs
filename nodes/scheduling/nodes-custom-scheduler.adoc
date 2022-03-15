@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-custom-scheduler"]
 = Running a custom scheduler
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-custom-scheduler
 
 toc::[]

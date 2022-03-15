@@ -2,7 +2,9 @@
 :context: nodes-containers-init
 [id="nodes-containers-init"]
 = Using Init Containers to perform tasks before a pod is deployed
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

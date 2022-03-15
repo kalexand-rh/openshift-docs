@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="recommended-cluster-scaling-practices"]
 = Recommended cluster scaling practices
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cluster-scaling
 
 toc::[]

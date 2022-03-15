@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 [id="about-odo-in-a-restricted-environment"]
 = About {odo-title} in a restricted environment
 :context: about-odo-in-a-restricted-environment

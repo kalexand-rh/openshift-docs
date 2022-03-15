@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="sandboxed-containers-4-x-release-notes"]
 = {sandboxed-containers-first} {sandboxed-containers-version} release notes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: sandboxed-containers-release-notes
 
 toc::[]

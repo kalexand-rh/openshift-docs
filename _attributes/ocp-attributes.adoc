@@ -2,3 +2,4 @@
 :product-version: 4.9
 :openshift-enterprise: true
 :doctype: book
+:jupiter: true

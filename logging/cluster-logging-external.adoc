@@ -2,7 +2,9 @@
 :context: cluster-logging-external
 [id="cluster-logging-external"]
 = Forwarding logs to external third-party logging systems
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

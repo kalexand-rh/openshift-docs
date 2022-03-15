@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="about-sriov"]
 = About Single Root I/O Virtualization (SR-IOV) hardware networks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/virt-document-attributes.adoc[]
 :context: about-sriov
 

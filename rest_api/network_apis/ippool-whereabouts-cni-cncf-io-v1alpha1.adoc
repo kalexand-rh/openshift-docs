@@ -3,7 +3,9 @@
 [id="ippool-whereabouts-cni-cncf-io-v1alpha1"]
 = IPPool [whereabouts.cni.cncf.io/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

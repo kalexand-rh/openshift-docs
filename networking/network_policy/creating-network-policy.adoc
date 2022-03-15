@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-network-policy"]
 = Creating a network policy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-network-policy
 
 toc::[]

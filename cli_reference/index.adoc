@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cli-tools-overview"]
 = {product-title} CLI tools overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cli-tools-overview
 
 toc::[]

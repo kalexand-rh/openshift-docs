@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-pruning-utility"]
 = Object pruning utility for Go-based Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-pruning-utility
 
 toc::[]

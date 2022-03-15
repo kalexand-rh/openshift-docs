@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="logging-network-policy"]
 = Logging network policy events
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: logging-network-policy
 
 toc::[]

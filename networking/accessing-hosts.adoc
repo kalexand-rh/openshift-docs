@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="accessing-hosts"]
 = Accessing hosts
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: accessing-hosts
 
 toc::[]

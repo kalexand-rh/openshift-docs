@@ -2,7 +2,9 @@
 :context: nodes-cluster-resource-levels
 [id="nodes-cluster-resource-levels"]
 = Estimating the number of pods your {product-title} nodes can hold
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

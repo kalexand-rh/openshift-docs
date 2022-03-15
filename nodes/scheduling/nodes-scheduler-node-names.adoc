@@ -2,7 +2,9 @@
 :context: nodes-scheduler-node-names
 [id="nodes-scheduler-node-names"]
 = Placing a pod on a specific node by name
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

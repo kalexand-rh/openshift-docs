@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="odc-about-developer-perspective"]
 = About the Developer perspective in the web console
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: odc-about-developer-perspective
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="disabling-windows-container-workloads"]
 = Disabling Windows container workloads
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: disabling-windows-container-workloads
 
 toc::[]

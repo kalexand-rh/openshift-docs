@@ -2,7 +2,9 @@
 :context: nodes-pods-priority
 [id="nodes-pods-priority"]
 = Including pod priority in pod scheduling decisions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

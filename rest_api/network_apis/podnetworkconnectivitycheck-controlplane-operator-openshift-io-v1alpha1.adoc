@@ -3,7 +3,9 @@
 [id="podnetworkconnectivitycheck-controlplane-operator-openshift-io-v1alpha1"]
 = PodNetworkConnectivityCheck [controlplane.operator.openshift.io/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

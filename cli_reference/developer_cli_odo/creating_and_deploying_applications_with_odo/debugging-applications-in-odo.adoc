@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 [id='debugging-applications-in-odo']
 = Debugging applications in `{odo-title}`
 :context: debugging-applications-in-odo

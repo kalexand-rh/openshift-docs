@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="odc-editing-applications"]
 = Editing applications
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: odc-editing-applications
 
 toc::[]

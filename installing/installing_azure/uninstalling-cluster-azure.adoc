@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-cluster-azure"]
 = Uninstalling a cluster on Azure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstall-cluster-azure
 
 toc::[]

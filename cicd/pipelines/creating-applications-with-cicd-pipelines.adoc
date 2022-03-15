@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='creating-applications-with-cicd-pipelines']
 = Creating CI/CD solutions for applications using OpenShift Pipelines
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-applications-with-cicd-pipelines
 
 toc::[]

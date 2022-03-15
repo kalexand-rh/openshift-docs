@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-machineset-rhv"]
 = Creating a machine set on {rh-virtualization}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-machineset-rhv
 
 toc::[]

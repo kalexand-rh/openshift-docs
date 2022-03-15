@@ -2,7 +2,9 @@
 [id="virt-automatic-certificates"]
 = Automatic renewal of TLS certificates
 include::_attributes/virt-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-automatic-certificates
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="odc-deleting-applications"]
 = Deleting applications
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: odc-deleting-applications
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-pkgman-to-bundle"]
 = Migrating package manifest projects to bundle format
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-pkgman-to-bundle
 
 toc::[]

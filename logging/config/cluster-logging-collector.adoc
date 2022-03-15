@@ -2,7 +2,9 @@
 :context: cluster-logging-collector
 [id="cluster-logging-collector"]
 = Configuring the logging collector
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

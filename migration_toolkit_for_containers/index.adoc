@@ -1,6 +1,8 @@
 [id="migration-toolkit-for-containers-overview"]
 = Migration toolkit for containers overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: migration-toolkit-for-containers-overview
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="planning-your-environment-according-to-object-maximums"]
 = Planning your environment according to object maximums
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: object-limits
 
 toc::[]

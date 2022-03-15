@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="compliance-operator-remediation"]
 = Managing Compliance Operator remediation
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: compliance-remediation
 
 toc::[]

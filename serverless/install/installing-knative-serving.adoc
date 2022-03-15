@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-knative-serving"]
 = Installing Knative Serving
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 :context: installing-knative-serving
 

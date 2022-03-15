@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nw-ovn-kubernetes-disabling-multicast"]
 = Disabling multicast for a project
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ovn-kubernetes-disabling-multicast
 
 toc::[]

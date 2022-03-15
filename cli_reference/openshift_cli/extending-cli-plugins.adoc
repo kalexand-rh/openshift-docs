@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cli-extend-plugins"]
 = Extending the OpenShift CLI with plug-ins
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cli-extend-plugins
 
 toc::[]

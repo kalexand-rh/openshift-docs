@@ -1,6 +1,8 @@
 [id="kn-event-ref"]
 = kn event
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 :context: kn-event-ref
 

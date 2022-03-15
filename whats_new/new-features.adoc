@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="new-features"]
 = New features and enhancements
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: new-features
 
 toc::[]

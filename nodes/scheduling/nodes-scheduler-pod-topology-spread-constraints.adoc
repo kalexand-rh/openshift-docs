@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-scheduler-pod-topology-spread-constraints"]
 = Controlling pod placement by using pod topology spread constraints
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-scheduler-pod-topology-spread-constraints
 
 toc::[]

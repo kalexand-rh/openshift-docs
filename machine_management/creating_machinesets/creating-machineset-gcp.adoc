@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-machineset-gcp"]
 = Creating a machine set on GCP
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-machineset-gcp
 
 toc::[]

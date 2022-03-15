@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-openshift-updates"]
 = Understanding {product-title} updates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-openshift-updates
 
 toc::[]

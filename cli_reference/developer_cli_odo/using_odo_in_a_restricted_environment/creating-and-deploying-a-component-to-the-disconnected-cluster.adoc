@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-and-deploying-a-component-to-the-disconnected-cluster"]
 = Creating and deploying a component to the disconnected cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-and-deploying-a-component-to-the-disconnected-cluster
 
 toc::[]

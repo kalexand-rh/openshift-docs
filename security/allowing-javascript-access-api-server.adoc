@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="allowing-javascript-based-access-api-server"]
 = Allowing JavaScript-based access to the API server from additional hosts
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: auth-allowed-origins
 
 toc::[]

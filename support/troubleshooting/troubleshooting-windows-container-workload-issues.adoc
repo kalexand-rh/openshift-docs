@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-windows-container-workload-issues"]
 = Troubleshooting Windows container workload issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-windows-container-workload-issues
 
 toc::[]

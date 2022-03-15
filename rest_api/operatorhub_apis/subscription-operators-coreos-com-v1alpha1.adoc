@@ -3,7 +3,9 @@
 [id="subscription-operators-coreos-com-v1alpha1"]
 = Subscription [operators.coreos.com/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

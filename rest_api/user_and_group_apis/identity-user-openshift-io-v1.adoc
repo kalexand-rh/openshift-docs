@@ -3,7 +3,9 @@
 [id="identity-user-openshift-io-v1"]
 = Identity [user.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-openstack-user-sr-iov"]
 = Installing a cluster on OpenStack on your own SR-IOV infrastructure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-openstack-user-sr-iov
 
 toc::[]

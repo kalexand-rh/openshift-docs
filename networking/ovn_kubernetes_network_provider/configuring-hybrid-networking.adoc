@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-hybrid-networking"]
 = Configuring hybrid networking
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-hybrid-networking
 
 toc::[]

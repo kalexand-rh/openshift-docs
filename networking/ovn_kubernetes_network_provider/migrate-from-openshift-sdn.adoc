@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="migrate-from-openshift-sdn"]
 = Migrating from the OpenShift SDN cluster network provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: migrate-from-openshift-sdn
 
 toc::[]

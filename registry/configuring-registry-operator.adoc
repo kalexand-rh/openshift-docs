@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-registry-operator"]
 = Image Registry Operator in {product-title}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-registry-operator
 
 toc::[]

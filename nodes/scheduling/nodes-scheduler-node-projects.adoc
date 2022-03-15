@@ -2,7 +2,9 @@
 :context: nodes-scheduler-node-project
 [id="nodes-scheduler-node-project"]
 = Placing a pod in a specific project
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

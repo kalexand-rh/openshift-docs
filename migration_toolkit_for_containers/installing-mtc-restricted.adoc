@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-mtc-restricted"]
 = Installing the Migration Toolkit for Containers in a restricted network environment
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-mtc-restricted
 :installing-mtc-restricted:
 

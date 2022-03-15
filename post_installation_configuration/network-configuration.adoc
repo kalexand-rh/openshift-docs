@@ -2,7 +2,9 @@
 :context: post-install-network-configuration
 [id="post-install-network-configuration"]
 = Post-installation network configuration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/ossm-document-attributes.adoc[]
 
 toc::[]

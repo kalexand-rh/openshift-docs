@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="node-health-check-operator"]
 = Deploying node health checks by using the Node Health Check Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: node-health-check-operator
 
 toc::[]

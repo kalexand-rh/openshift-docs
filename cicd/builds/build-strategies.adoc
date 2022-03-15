@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="build-strategies"]
 = Using build strategies
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: build-strategies
 
 toc::[]

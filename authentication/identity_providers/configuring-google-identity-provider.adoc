@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-google-identity-provider"]
 = Configuring a Google identity provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-google-identity-provider
 
 toc::[]

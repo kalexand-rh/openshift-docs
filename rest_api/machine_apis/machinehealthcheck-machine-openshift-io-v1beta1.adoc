@@ -3,7 +3,9 @@
 [id="machinehealthcheck-machine-openshift-io-v1beta1"]
 = MachineHealthCheck [machine.openshift.io/v1beta1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

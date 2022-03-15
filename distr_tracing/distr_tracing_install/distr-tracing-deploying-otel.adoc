@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="distr-tracing-deploying-otel"]
 = Configuring and deploying distributed tracing data collection
+ifndef::jupiter[]
 include::_attributes/distr-tracing-document-attributes.adoc[]
+endif::[]
 :context: deploying-distr-tracing-data-collection
 
 toc::[]

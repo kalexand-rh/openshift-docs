@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-alibaba-default"]
 = Installing a cluster quickly on Alibaba Cloud
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-alibaba-default
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-status"]
 = Viewing Operator status
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-status
 
 toc::[]

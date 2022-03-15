@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-sriov-device"]
 = Configuring an SR-IOV network device
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-sriov-device
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="hostfirmwaresettings-metal3-io-v1alpha1"]
 = HostFirmwareSettings [metal3.io/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

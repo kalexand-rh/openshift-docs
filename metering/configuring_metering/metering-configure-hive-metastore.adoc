@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metering-configure-hive-metastore"]
 = Configuring the Hive metastore
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metering-configure-hive-metastore
 
 toc::[]

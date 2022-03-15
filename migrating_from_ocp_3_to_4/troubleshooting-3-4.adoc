@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-3-4"]
 = Troubleshooting
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-3-4
 :troubleshooting-3-4:
 :namespace: openshift-migration

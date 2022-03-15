@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-cluster-aws"]
 = Uninstalling a cluster on AWS
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstall-cluster-aws
 
 toc::[]

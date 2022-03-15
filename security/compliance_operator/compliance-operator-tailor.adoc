@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="compliance-operator-tailor"]
 = Tailoring the Compliance Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: compliance-tailor
 
 While the Compliance Operator comes with ready-to-use profiles, they must be modified to fit the organizations’ needs and requirements. The process of modifying a profile is called _tailoring_.

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="distr-tracing-architecture"]
 = Distributed tracing architecture
+ifndef::jupiter[]
 include::_attributes/distr-tracing-document-attributes.adoc[]
+endif::[]
 :context: distributed-tracing-architecture
 
 toc::[]

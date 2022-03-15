@@ -3,7 +3,9 @@
 [id="imagestreamimport-image-openshift-io-v1"]
 = ImageStreamImport [image.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

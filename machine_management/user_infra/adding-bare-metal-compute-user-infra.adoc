@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="adding-bare-metal-compute-user-infra"]
 = Adding compute machines to bare metal
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: adding-bare-metal-compute-user-infra
 
 toc::[]

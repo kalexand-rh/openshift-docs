@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="reviewing-monitoring-dashboards"]
 = Reviewing monitoring dashboards
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: reviewing-monitoring-dashboards
 
 toc::[]

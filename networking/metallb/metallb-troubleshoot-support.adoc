@@ -1,6 +1,8 @@
 [id="metallb-troubleshoot-support"]
 = MetalLB troubleshooting and support
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metallb-troubleshoot-support
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metallb-configure-address-pools"]
 = Configuring MetalLB address pools
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configure-metallb-address-pools
 
 toc::[]

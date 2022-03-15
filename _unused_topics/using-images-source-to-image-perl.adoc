@@ -2,7 +2,9 @@
 
 [id="using-images-source-to-image-perl"]
 = Perl
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-images-source-to-image-perl
 toc::[]
 

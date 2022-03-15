@@ -1,6 +1,8 @@
 [id="installing-azure-stack-hub-network-customizations"]
 = Installing a cluster on Azure Stack Hub with network customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-stack-hub-network-customizations
 
 toc::[]

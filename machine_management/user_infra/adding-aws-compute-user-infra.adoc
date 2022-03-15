@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="adding-aws-compute-user-infra"]
 = Adding compute machines to AWS by using CloudFormation templates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: adding-aws-compute-user-infra
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-gitlab-identity-provider"]
 = Configuring a GitLab identity provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-gitlab-identity-provider
 
 toc::[]

@@ -2,7 +2,9 @@
 :context: post-install-preparing-for-users
 [id="post-install-preparing-for-users"]
 = Preparing for users
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

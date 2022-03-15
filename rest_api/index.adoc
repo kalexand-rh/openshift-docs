@@ -3,7 +3,9 @@
 [id="api-index"]
 = API index
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 [cols="1,1",options="header"]

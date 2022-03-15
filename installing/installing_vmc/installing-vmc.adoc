@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-vmc"]
 = Installing a cluster on VMC
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-vmc
 
 toc::[]

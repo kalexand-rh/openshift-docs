@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-workflow"]
 = Operator Lifecycle Manager workflow
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-workflow
 
 toc::[]

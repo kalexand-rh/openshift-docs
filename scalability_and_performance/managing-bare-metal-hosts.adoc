@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="managing-bare-metal-hosts"]
 = Managing bare metal hosts
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: managing-bare-metal-hosts
 
 toc::[]

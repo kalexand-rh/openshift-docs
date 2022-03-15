@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-cluster-azure-stack-hub"]
 = Uninstalling a cluster on Azure Stack Hub
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstall-cluster-azure-stack-hub
 
 toc::[]

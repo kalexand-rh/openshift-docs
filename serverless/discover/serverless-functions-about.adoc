@@ -2,7 +2,9 @@
 [id="serverless-functions-about"]
 = About {FunctionsProductName}
 :context: serverless-functions-about
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

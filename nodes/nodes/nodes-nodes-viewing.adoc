@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-nodes-viewing"]
 = Viewing and listing the nodes in your {product-title} cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-nodes-viewing
 
 toc::[]

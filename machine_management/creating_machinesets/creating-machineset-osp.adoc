@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-machineset-osp"]
 = Creating a machine set on OpenStack
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-machineset-osp
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-crio-issues"]
 = Troubleshooting CRI-O container runtime issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-crio-issues
 
 toc::[]

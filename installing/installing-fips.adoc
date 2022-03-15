@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-fips"]
 = Support for FIPS cryptography
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-fips
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="legal-notice"]
 = Legal notice
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: legal-notice
 
 [.lead]

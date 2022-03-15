@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="openshift-overview"]
 = {product-title} overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: openshift-overview
 
 toc::[]

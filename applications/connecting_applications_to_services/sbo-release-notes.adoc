@@ -3,7 +3,9 @@
 [id="servicebinding-release-notes"]
 = Release notes for {servicebinding-title} 
 :context: servicebinding-release-notes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/servicebinding-document-attributes.adoc[]
 
 toc::[]

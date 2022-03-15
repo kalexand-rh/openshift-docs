@@ -1,6 +1,8 @@
 [id="persistent-storage-csi-azure-file"]
 = Azure File CSI Driver Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-csi-azure-file
 
 toc::[]

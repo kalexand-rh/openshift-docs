@@ -2,7 +2,9 @@
 :context: cluster-logging-unsupported
 [id="cluster-logging-maintenance-and-support"]
 = Maintenance and support
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

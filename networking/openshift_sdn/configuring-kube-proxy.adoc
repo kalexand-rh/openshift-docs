@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-kube-proxy"]
 = Configuring kube-proxy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-kube-proxy
 
 toc::[]

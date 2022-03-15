@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="upgrading-metering"]
 = Upgrading metering
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: upgrading-metering
 
 toc::[]

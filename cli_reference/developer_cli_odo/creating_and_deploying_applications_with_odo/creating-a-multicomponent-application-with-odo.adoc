@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 [id='creating-a-multicomponent-application-with-odo']
 = Creating a multicomponent application with `{odo-title}`
 :context: creating-a-multicomponent-application-with-odo

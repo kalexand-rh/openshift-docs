@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-oadp-gcp"]
 = Installing and configuring the OpenShift API for Data Protection with Google Cloud Platform
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-oadp-gcp
 :installing-oadp-gcp:
 :credentials: cloud-credentials-gcp

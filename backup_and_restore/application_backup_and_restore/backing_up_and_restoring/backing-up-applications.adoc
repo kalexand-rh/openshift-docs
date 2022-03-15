@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="backing-up-applications"]
 = Backing up applications
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: backing-up-applications
 :velero-domain: velero.io
 

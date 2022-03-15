@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metering-configure-aws-billing-correlation"]
 = Configure AWS billing correlation
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metering-configure-aws-billing-correlation
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="byoh-windows-instance"]
 = Using Bring-Your-Own-Host (BYOH) Windows instances as nodes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: <byoh-windows-instance>
 
 toc::[]

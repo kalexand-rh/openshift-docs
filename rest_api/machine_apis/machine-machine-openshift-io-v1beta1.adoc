@@ -3,7 +3,9 @@
 [id="machine-machine-openshift-io-v1beta1"]
 = Machine [machine.openshift.io/v1beta1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

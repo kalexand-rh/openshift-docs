@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="projecting-binding-data"]
 = Projecting binding data
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/servicebinding-document-attributes.adoc[]
 :context: projecting-binding-data
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="adding-rhel-compute"]
 = Adding RHEL compute machines to an {product-title} cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: adding-rhel-compute
 
 toc::[]

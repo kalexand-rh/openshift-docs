@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="scaling-cluster-monitoring-operator"]
 = Scaling the Cluster Monitoring Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cluster-monitoring-operator
 
 toc::[]

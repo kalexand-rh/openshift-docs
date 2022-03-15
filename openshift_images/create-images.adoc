@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-images"]
 = Creating images
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: create-images
 
 toc::[]

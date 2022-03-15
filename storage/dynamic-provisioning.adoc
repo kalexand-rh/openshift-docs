@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="dynamic-provisioning"]
 = Dynamic provisioning
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: dynamic-provisioning
 
 toc::[]

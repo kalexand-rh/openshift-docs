@@ -2,7 +2,9 @@
 :context: cluster-logging-moving
 [id="cluster-logging-moving"]
 = Moving OpenShift Logging resources with node selectors
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

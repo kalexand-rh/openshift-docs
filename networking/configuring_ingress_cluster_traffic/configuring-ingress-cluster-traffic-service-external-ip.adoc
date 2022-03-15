@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-ingress-cluster-traffic-service-external-ip"]
 = Configuring ingress cluster traffic for a service external IP
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-ingress-cluster-traffic-service-external-ip
 
 toc::[]

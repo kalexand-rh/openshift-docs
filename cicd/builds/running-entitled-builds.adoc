@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="running-entitled-builds"]
 = Using Red Hat subscriptions in builds
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: running-entitled-builds
 
 toc::[]

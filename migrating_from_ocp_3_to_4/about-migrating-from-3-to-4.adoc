@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="about-migrating-from-3-to-4"]
 = About migrating from {product-title} 3 to 4
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: about-migrating-from-3-to-4
 
 toc::[]

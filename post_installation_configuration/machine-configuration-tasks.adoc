@@ -2,7 +2,9 @@
 :context: post-install-machine-configuration-tasks
 [id="post-install-machine-configuration-tasks"]
 = Post-installation machine configuration tasks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="updating-cluster-rhel-compute"]
 = Updating a cluster that includes RHEL compute machines
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: updating-cluster-rhel-compute
 
 toc::[]

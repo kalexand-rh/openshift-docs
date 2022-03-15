@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cluster-logging-troubleshooting-for-critical-alerts"]
 = Troubleshooting for Critical Alerts
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 :toclevels: 2

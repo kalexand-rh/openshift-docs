@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-cluster-ibm-cloud"]
 = Uninstalling a cluster on IBM Cloud
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstalling-cluster-ibm-cloud
 
 toc::[]

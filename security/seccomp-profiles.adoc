@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="seccomp-profiles"]
 = Configuring seccomp profiles
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-seccomp-profiles
 
 toc::[]

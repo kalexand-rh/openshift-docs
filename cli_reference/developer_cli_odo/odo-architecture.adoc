@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="odo-architecture"]
 = odo architecture
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: odo-architecture
 
 toc::[]

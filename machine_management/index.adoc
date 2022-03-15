@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="overview-of-machine-management"]
 = Overview of machine management
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: overview-of-machine-management
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-restricted-networks-gcp-installer-provisioned"]
 = Installing a cluster on GCP in a restricted network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-restricted-networks-gcp-installer-provisioned
 
 toc::[]

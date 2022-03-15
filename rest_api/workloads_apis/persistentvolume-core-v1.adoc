@@ -1,7 +1,9 @@
 [id="persistentvolume-core-v1"]
 = PersistentVolume [core/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

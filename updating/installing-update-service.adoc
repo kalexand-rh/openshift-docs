@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-update-service"]
 = Installing and configuring the OpenShift Update Service
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: update-service
 
 toc::[]

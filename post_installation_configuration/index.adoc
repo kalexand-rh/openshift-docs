@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="post-install-configuration-overview"]
 = Post-installation configuration overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: post-installation-configuration-overview
 
 toc::[]

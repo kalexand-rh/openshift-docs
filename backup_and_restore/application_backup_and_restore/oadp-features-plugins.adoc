@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="oadp-features-plugins"]
 = OADP features and plug-ins
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: oadp-features-plugins
 :velero-domain: velero.io
 

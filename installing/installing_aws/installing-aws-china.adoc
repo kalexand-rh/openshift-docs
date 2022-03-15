@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-aws-china-region"]
 = Installing a cluster on AWS China
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-aws-china-region
 
 toc::[]

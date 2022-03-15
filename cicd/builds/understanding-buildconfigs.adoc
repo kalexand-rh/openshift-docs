@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-buildconfigs"]
 = Understanding build configurations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-builds
 
 toc::[]

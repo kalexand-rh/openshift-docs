@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="managing-pod-security-policies"]
 = Managing security context constraints
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-internal-oauth
 
 toc::[]

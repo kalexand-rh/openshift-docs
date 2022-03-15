@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="openshift-cli"]
 = Creating and building an application using the CLI
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: openshift-cli
 
 toc::[]

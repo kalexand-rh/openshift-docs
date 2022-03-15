@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="openshift-sdn-viewing-egress-firewall"]
 = Editing an egress firewall for a project
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: openshift-sdn-viewing-egress-firewall
 
 toc::[]

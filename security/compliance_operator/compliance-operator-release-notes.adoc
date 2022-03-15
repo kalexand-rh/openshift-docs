@@ -3,7 +3,9 @@
 [id="compliance-operator-release-notes"]
 = Compliance Operator release notes
 :context: compliance-operator-release-notes-v0
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

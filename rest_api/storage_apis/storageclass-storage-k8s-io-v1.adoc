@@ -3,7 +3,9 @@
 [id="storageclass-storage-k8s-io-v1"]
 = StorageClass [storage.k8s.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

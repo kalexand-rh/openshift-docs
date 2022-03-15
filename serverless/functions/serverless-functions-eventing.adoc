@@ -2,7 +2,9 @@
 [id="serverless-functions-eventing"]
 = Using functions with Knative Eventing
 include::_attributes/serverless-document-attributes.adoc[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: serverless-functions-eventing
 
 toc::[]

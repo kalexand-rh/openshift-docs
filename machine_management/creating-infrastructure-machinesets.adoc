@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-infrastructure-machinesets"]
 = Creating infrastructure machine sets
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/ossm-document-attributes.adoc[]
 :context: creating-infrastructure-machinesets
 

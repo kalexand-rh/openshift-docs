@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-installing-cli"]
 = Installing the Operator SDK CLI
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-installing-cli
 
 :osdk_ver: v1.16.0

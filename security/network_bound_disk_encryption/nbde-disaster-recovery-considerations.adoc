@@ -2,7 +2,9 @@
 // CNF-2127 assembly
 [id="nbde-disaster-recovery-considerations"]
 = Disaster recovery considerations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nbde-implementation
 
 toc::[]

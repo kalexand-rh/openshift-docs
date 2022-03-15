@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="architecture-overview"]
 = Architecture overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: architecture-overview
 
 toc::[]

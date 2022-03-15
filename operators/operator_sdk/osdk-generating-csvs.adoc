@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osdk-generating-csvs"]
 = Defining cluster service versions (CSVs)
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osdk-generating-csvs
 
 toc::[]

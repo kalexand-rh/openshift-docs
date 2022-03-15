@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-web-console"]
 = Configuring the web console in {product-title}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-web-console
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="red-hat-marketplace"]
 = Using the Red Hat Marketplace
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: red-hat-marketplace
 
 toc::[]

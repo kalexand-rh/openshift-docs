@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="updating-cluster-prepare"]
 = Preparing to update to {product-title} 4.9
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: updating-cluster-prepare
 
 toc::[]

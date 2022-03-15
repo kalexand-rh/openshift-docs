@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-vsphere-installer-provisioned-customizations"]
 = Installing a cluster on vSphere with customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-vsphere-installer-provisioned-customizations
 
 toc::[]

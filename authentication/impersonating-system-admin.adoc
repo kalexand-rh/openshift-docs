@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="impersonating-system-admin"]
 = Impersonating the system:admin user
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: impersonating-system-admin
 
 toc::[]

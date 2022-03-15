@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metering-about-configuring"]
 = About configuring metering
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metering-about-configuring
 
 toc::[]

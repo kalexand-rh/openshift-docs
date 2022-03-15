@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cnf-performance-addon-operator-for-low-latency-nodes"]
 = Performance Addon Operator for low latency nodes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cnf-master
 
 toc::[]

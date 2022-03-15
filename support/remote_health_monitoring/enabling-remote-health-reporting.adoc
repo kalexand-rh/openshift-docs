@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="enabling-remote-health-reporting"]
 = Enabling remote health reporting
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 :context: enabling-remote-health-reporting
 

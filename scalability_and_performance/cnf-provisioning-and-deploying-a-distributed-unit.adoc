@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cnf-provisioning-and-installing-a-distributed-unit"]
 = Provisioning and installing a distributed unit
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-du
 
 [NOTE]

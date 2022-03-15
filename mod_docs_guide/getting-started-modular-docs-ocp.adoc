@@ -10,7 +10,9 @@
 
 [id="getting-started-modular-docs-ocp"]
 = Getting started with modular docs on OpenShift
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: assembly-gsg
 
 toc::[]

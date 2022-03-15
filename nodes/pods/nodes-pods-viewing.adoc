@@ -2,7 +2,9 @@
 :context: nodes-pods-viewing
 [id="nodes-pods-viewing"]
 = Viewing pods
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

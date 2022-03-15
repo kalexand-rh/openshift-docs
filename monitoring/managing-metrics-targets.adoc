@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="managing-metrics-targets"]
 = Managing metrics targets
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: managing-metrics-targets
 
 toc::[]

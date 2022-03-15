@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="registry-overview"]
 = {product-title} registry overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: registry-overview
 
 toc::[]

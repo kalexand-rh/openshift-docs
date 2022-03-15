@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-preparing"]
 = Selecting a cluster installation method and preparing it for users
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-preparing
 
 toc::[]

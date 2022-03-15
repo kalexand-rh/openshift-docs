@@ -1,6 +1,8 @@
 [id="configuring-user-agent"]
 = Configuring the user agent
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-user-agent
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="oauthclient-oauth-openshift-io-v1"]
 = OAuthClient [oauth.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

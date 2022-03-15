@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-understanding-olm"]
 = Operator Lifecycle Manager concepts and resources
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-understanding-olm
 
 toc::[]

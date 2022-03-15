@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-iam-ibm-cloud"]
 = Configuring IAM for IBM Cloud
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-iam-ibm-cloud
 
 toc::[]

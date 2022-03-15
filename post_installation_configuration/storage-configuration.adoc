@@ -2,7 +2,9 @@
 :context: post-install-storage-configuration
 [id="post-install-storage-configuration"]
 = Post-installation storage configuration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :gluster: GlusterFS
 :gluster-native: Containerized GlusterFS
 :gluster-external: External GlusterFS

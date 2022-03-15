@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="samples-operator-alt-registry"]
 = Using the Cluster Samples Operator with an alternate registry
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: samples-operator-alt-registry
 
 toc::[]

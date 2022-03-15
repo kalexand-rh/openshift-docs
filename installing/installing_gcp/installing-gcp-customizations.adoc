@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-customizations"]
 = Installing a cluster on GCP with customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-customizations
 
 toc::[]

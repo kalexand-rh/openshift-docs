@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-build-inputs"]
 = Creating build inputs
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-build-inputs
 
 toc::[]

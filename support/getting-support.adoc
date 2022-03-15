@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="getting-support"]
 = Getting support
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 ifdef::openshift-dedicated[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
 endif::[]

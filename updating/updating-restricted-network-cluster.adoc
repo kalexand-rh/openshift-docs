@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="updating-restricted-network-cluster"]
 = Updating a restricted network cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: updating-restricted-network-cluster
 
 toc::[]

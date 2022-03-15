@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-file-integrity-operator"]
 = Configuring the Custom File Integrity Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: file-integrity-operator
 
 toc::[]

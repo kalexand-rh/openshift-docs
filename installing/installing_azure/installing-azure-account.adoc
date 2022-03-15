@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-azure-account"]
 = Configuring an Azure account
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-account
 
 toc::[]

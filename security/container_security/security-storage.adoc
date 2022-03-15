@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-storage"]
 = Securing attached storage
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-storage
 
 toc::[]

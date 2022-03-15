@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cluster-network-operator"]
 = Cluster Network Operator in {product-title}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cluster-network-operator
 
 toc::[]

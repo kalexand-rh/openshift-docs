@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="validating-an-installation"]
 = Validating an installation
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: validating-an-installation
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-hpa-for-an-application"]
 = Configuring HPA for an application
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-hpa-for-an-application
 
 toc::[]

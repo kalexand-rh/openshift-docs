@@ -2,7 +2,9 @@
 [id="advanced-kn-config"]
 = Knative CLI advanced configuration
 :context: advanced-kn-config
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

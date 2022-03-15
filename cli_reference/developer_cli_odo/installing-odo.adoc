@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='installing-odo']
 = Installing odo
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-odo
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="replacing-unhealthy-etcd-member"]
 = Replacing an unhealthy etcd member
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: replacing-unhealthy-etcd-member
 
 toc::[]

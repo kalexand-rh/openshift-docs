@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="dedicated-aws-vpn"]
 = Configuring AWS VPN
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: dedicated-aws-vpn
 
 toc::[]

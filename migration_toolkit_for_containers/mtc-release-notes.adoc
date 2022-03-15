@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="mtc-release-notes"]
 = Migration Toolkit for Containers release notes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: mtc-release-notes
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="clusterserviceversion-operators-coreos-com-v1alpha1"]
 = ClusterServiceVersion [operators.coreos.com/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

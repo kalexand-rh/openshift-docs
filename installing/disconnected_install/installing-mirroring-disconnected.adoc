@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-mirroring-disconnected"]
 = Mirroring images for a disconnected installation using the oc-mirror plug-in
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-mirroring-disconnected
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cli-administrator-commands"]
 = OpenShift CLI administrator command reference
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cli-administrator-commands
 
 toc::[]

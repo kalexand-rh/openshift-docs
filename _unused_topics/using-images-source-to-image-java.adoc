@@ -2,7 +2,9 @@
 
 [id="using-images-source-to-image"]
 = Java
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-images-source-to-image
 toc::[]
 

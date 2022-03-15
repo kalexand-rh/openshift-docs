@@ -3,7 +3,9 @@
 [id="machineautoscaler-autoscaling-openshift-io-v1beta1"]
 = MachineAutoscaler [autoscaling.openshift.io/v1beta1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

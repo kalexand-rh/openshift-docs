@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="setting-quotas-across-multiple-projects"]
 = Resource quotas across multiple projects
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: setting-quotas-across-multiple-projects
 
 toc::[]

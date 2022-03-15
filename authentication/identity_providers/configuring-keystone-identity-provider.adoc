@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-keystone-identity-provider"]
 = Configuring a Keystone identity provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-keystone-identity-provider
 
 toc::[]

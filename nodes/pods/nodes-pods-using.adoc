@@ -2,7 +2,9 @@
 :context: nodes-pods-using-ssy
 [id="nodes-pods-using-pp"]
 = Using pods
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

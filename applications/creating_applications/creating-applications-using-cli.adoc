@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-applications-using-cli"]
 = Creating applications using the CLI
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-applications-using-cli
 
 toc::[]

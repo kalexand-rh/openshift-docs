@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="dr-restoring-cluster-state"]
 = Restoring to a previous cluster state
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: dr-restoring-cluster-state
 
 toc::[]

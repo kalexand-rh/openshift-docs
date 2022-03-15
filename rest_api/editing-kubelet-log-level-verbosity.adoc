@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="editing-kubelet-log-level-verbosity"]
 = Editing kubelet log level verbosity and gathering logs
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: editing-kubelet-log-level-verbosity
 
 toc::[]

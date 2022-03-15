@@ -2,7 +2,9 @@
 :context: cluster-logging-alerts
 [id="cluster-logging-alerts"]
 = Understanding OpenShift Logging alerts
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

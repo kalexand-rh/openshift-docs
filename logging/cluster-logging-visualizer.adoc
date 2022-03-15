@@ -2,7 +2,9 @@
 :context: cluster-logging-visualizer
 [id="cluster-logging-visualizer-using"]
 = Viewing cluster logs by using Kibana
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

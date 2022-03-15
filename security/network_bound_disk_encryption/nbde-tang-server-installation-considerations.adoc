@@ -2,7 +2,9 @@
 // CNF-2127 assembly
 [id="nbde-tang-server-installation-considerations"]
 = Tang server installation considerations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nbde-implementation
 
 toc::[]

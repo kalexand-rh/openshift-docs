@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-sriov-operator"]
 = Installing the SR-IOV Network Operator
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-sriov-operator
 
 toc::[]

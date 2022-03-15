@@ -2,7 +2,9 @@
 :context: cluster-logging-eventrouter
 [id="cluster-logging-eventrouter"]
 = Collecting and storing Kubernetes events
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-vpc"]
 = Installing a cluster on GCP into an existing VPC
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-vpc
 
 toc::[]

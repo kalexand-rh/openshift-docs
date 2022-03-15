@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="platform-operators-ref"]
 = Platform Operators reference
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: platform-operators-ref
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-rh-catalogs"]
 = Red Hat-provided Operator catalogs
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-rh-catalogs
 
 toc::[]

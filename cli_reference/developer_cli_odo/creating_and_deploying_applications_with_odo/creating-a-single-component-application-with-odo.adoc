@@ -1,5 +1,7 @@
 :_content-type: ASSEMBLY
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 [id='creating-a-single-component-application-with-odo']
 = Creating a single-component application with {odo-title}
 

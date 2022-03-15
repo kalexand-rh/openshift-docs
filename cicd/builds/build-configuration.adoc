@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="build-configuration"]
 = Build configuration resources
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: build-configuration
 
 toc::[]

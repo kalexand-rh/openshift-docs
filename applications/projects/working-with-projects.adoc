@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="working-with-projects"]
 = Working with projects
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: projects
 
 toc::[]

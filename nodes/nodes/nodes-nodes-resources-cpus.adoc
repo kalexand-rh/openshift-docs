@@ -2,7 +2,9 @@
 :context: nodes-nodes-resources-cpus
 [id="nodes-nodes-resources-cpus"]
 = Allocating specific CPUs for nodes in a cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

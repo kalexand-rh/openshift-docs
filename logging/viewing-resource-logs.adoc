@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="vewing-resource-logs"]
 = Viewing logs for a resource
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: viewing-resource-logs
 
 toc::[]

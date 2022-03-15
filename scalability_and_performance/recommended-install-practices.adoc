@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="recommended-cluster-install-practices"]
 = Recommended practices for installing large clusters
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cluster-install
 
 toc::[]

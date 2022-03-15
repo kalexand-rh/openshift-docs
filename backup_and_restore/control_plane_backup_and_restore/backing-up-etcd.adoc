@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="backup-etcd"]
 = Backing up etcd
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: backup-etcd
 
 toc::[]

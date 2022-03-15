@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="manually-creating-iam-azure"]
 = Manually creating IAM for Azure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: manually-creating-iam-azure
 
 toc::[]

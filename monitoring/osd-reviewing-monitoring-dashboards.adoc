@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="osd-reviewing-monitoring-dashboards"]
 = Reviewing monitoring dashboards
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: osd-reviewing-monitoring-dashboards
 
 toc::[]

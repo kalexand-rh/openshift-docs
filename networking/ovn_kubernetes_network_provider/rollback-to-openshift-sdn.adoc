@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rollback-to-openshift-sdn"]
 = Rolling back to the OpenShift SDN network provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: rollback-to-openshift-sdn
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="preparing-to-install-on-ibm-power"]
 = Preparing to install on IBM Power
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: preparing-to-install-on-ibm-power
 
 toc::[]

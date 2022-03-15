@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ephemeral-storage-csi-inline"]
 = CSI inline ephemeral volumes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ephemeral-storage-csi-inline
 
 toc::[]

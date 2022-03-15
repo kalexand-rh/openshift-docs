@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-pod-level-bonding"]
 = Using pod-level bonding
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-pod-level-bonding
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="templates-using-ruby-on-rails"]
 = Using Ruby on Rails
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: templates-ruby-on-rails
 
 toc::[]

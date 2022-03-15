@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-persistent-storage"]
 = Understanding persistent storage
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-persistent-storage
 
 toc::[]

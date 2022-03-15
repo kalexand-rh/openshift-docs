@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-default"]
 = Installing a cluster quickly on GCP
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-default
 
 toc::[]

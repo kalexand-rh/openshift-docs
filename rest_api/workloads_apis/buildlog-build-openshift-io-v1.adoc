@@ -3,7 +3,9 @@
 [id="buildlog-build-openshift-io-v1"]
 = BuildLog [build.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

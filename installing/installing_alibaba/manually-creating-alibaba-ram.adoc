@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="manually-creating-alibaba-ram"]
 = Creating the required Alibaba Cloud resources
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: manually-creating-alibaba-ram
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cli-getting-started"]
 = Getting started with the OpenShift CLI
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cli-developer-commands
 
 toc::[]

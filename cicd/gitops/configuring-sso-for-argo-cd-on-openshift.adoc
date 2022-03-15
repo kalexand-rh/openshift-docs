@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-sso-for-argo-cd-on-openshift"]
 = Configuring SSO for Argo CD on OpenShift
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-sso-for-argo-cd-on-openshift
 
 toc::[]

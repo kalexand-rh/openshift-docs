@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="automatic-pruning-taskrun-pipelinerun_{context}"]
 = Automatic pruning of task run and pipeline run 
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: automatic-pruning-taskrun-pipelinerun
 
 toc::[]

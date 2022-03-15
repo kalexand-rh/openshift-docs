@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="scheduling-windows-workloads"]
 = Scheduling Windows container workloads
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: scheduling-windows-workloads
 
 toc::[]

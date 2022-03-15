@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="update-using-custom-machine-config-pools"]
 = Performing a canary rollout update
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: update-using-custom-machine-config-pools
 
 toc::[]

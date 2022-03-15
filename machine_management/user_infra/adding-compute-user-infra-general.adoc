@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="adding-compute-user-infra-general"]
 = Adding compute machines to clusters with user-provisioned infrastructure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: adding-compute-user-infra-general
 
 toc::[]

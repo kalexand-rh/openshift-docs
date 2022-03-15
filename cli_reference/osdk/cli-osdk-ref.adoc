@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cli-osdk-ref"]
 = Operator SDK CLI reference
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cli-osdk-ref
 
 toc::[]

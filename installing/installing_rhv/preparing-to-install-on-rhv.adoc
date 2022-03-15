@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="preparing-to-install-on-rhv"]
 = Preparing to install on {rh-virtualization-first}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: preparing-to-install-on-rhv
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-topology-manager"]
 = Using Topology Manager
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-topology-manager
 
 toc::[]

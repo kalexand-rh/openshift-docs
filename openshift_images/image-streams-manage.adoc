@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="managing-image-streams"]
 = Managing image streams
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: image-streams-managing
 
 toc::[]

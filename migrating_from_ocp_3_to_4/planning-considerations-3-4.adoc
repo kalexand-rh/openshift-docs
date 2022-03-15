@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="planning-considerations-3-4"]
 = Network considerations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: planning-considerations-3-4
 
 toc::[]

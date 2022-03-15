@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='support-overview']
 = Support overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: support-overview
 
 toc::[]

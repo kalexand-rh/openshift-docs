@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="migrating-applications-with-mtc"]
 = Migrating your applications
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: migrating-applications-with-mtc
 
 toc::[]

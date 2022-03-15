@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-dns-records-on-aws"]
 = Creating DNS records on AWS
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-dns-records-on-aws
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="troubleshooting-storage-issues"]
 = Troubleshooting storage issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: troubleshooting-storage-issues
 
 toc::[]

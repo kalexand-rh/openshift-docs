@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="metering-usage-examples"]
 = Examples of using metering
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: metering-usage-examples
 
 toc::[]

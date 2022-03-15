@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-multiple-networks"]
 = Understanding multiple networks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-multiple-networks
 
 toc::[]

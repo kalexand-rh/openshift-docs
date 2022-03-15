@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="olm-understanding-operatorgroups"]
 = Operator groups
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: olm-understanding-operatorgroups
 
 toc::[]

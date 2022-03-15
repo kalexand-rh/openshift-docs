@@ -3,7 +3,9 @@
 [id="tokenreview-authentication-k8s-io-v1"]
 = TokenReview [authentication.k8s.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="kn-eventing-ref"]
 = Knative Eventing CLI commands
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 :context: kn-eventing-ref
 

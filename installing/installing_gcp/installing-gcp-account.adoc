@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-gcp-account"]
 = Configuring a GCP project
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-gcp-account
 
 toc::[]

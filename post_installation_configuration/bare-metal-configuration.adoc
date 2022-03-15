@@ -2,7 +2,9 @@
 :context: post-install-bare-metal-configuration
 [id="post-install-bare-metal-configuration"]
 = Bare metal configuration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

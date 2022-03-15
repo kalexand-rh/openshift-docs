@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-azure-user-infra"]
 = Installing a cluster on Azure using ARM templates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-user-infra
 
 toc::[]

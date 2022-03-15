@@ -2,7 +2,9 @@
 [id="serverless-admin-monitoring"]
 = Monitoring serverless components
 :context: serverless-admin-monitoring
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

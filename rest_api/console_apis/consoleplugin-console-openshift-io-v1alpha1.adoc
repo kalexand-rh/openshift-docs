@@ -3,7 +3,9 @@
 [id="consoleplugin-console-openshift-io-v1alpha1"]
 = ConsolePlugin [console.openshift.io/v1alpha1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

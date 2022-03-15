@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-identity-provider"]
 = Understanding identity provider configuration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-identity-provider
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id=creating-instances-of-services-managed-by-operators]
 = Creating instances of services managed by Operators
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-instances-of-services-managed-by-operators
 
 toc::[]

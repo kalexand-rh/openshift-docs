@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-csi-migration"]
 = CSI automatic migration
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-csi-migration
 
 toc::[]

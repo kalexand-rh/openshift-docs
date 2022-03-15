@@ -2,7 +2,9 @@
 [id="serverless-developing-python-functions"]
 = Developing Python functions
 :context: serverless-developing-python-functions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

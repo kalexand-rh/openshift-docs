@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="creating-machineset-ibm-cloud"]
 = Creating a machine set on IBM Cloud
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-machineset-ibm-cloud
 
 toc::[]

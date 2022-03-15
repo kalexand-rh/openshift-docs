@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-nodes-managing-max-pods"]
 = Managing the maximum number of pods per node
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-nodes-jobs
 
 toc::[]

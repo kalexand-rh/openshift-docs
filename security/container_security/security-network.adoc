@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-network"]
 = Securing networks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-network
 
 toc::[]

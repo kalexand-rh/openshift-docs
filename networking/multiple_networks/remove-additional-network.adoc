@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="remove-additional-network"]
 = Removing an additional network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: remove-additional-network
 
 toc::[]

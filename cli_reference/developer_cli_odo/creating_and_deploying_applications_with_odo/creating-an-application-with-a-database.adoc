@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id=creating-an-application-with-a-database]
 = Creating an application with a database
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: creating-an-application-with-a-database
 
 toc::[]

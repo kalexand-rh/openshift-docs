@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-registry-storage-gcp-user-infrastructure"]
 = Configuring the registry for GCP user-provisioned infrastructure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-registry-storage-gcp-user-infrastructure
 
 toc::[]

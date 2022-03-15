@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-nodes-jobs"]
 = Running tasks in pods using jobs
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-nodes-jobs
 
 toc::[]

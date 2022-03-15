@@ -1,6 +1,8 @@
 [id="metallb-configure-bgp-peers"]
 = Configuring MetalLB BGP peers
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configure-metallb-bgp-peers
 
 toc::[]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="accessing-third-party-monitoring-uis-and-apis"]
 = Accessing third-party monitoring UIs and APIs
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: accessing-third-party-monitoring-uis-and-apis
 
 toc::[]

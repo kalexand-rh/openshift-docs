@@ -2,7 +2,9 @@
 :context: nodes-cluster-overcommit
 [id="nodes-cluster-overcommit"]
 = Configuring your cluster to place pods on overcommitted nodes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

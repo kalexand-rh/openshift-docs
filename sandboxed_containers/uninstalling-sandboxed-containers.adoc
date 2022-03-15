@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-sandboxed-containers"]
 = Uninstalling {sandboxed-containers-first}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstalling-sandboxed-containers
 
 toc::[]

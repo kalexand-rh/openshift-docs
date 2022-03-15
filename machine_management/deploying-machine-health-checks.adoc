@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="deploying-machine-health-checks"]
 = Deploying machine health checks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: deploying-machine-health-checks
 
 toc::[]

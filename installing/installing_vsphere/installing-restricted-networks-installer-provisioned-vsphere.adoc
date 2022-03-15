@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-restricted-networks-installer-provisioned-vsphere"]
 = Installing a cluster on vSphere in a restricted network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-restricted-networks-installer-provisioned-vsphere
 
 toc::[]

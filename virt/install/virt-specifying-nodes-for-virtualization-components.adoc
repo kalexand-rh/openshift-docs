@@ -2,7 +2,9 @@
 include::_attributes/virt-document-attributes.adoc[]
 [id="virt-specifying-nodes-for-virtualization-components"]
 = Specifying nodes for {VirtProductName} components
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: virt-specifying-nodes-for-virtualization-components
 
 toc::[]

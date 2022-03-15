@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-pods-in-a-privileged-security-context"]
 = Using pods in a privileged security context
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-pods-in-a-privileged-security-context
 
 toc::[]

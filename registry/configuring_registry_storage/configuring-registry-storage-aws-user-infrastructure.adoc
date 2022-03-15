@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-registry-storage-aws-user-infrastructure"]
 = Configuring the registry for AWS user-provisioned infrastructure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-registry-storage-aws-user-infrastructure
 
 toc::[]

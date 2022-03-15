@@ -2,7 +2,9 @@
 :context: cluster-logging-enabling-json-logging
 [id="cluster-logging-enabling-json-logging"]
 = Enabling JSON logging
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

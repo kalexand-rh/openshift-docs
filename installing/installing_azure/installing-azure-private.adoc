@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-azure-private"]
 = Installing a private cluster on Azure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-azure-private
 
 toc::[]

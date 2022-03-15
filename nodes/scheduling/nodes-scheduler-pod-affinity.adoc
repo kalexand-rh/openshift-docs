@@ -2,7 +2,9 @@
 :context: nodes-scheduler-pod-affinity
 [id="nodes-scheduler-pod-affinity"]
 = Placing pods relative to other pods using affinity and anti-affinity rules
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

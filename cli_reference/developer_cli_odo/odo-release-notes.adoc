@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id='odo-release-notes']
 = `{odo-title}` release notes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: odo-release-notes
 
 toc::[]

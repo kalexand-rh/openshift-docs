@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="getting-started-with-service-binding-ibm-power-ibm-z"]
 = Getting started with service binding on IBM Power Systems, IBM Z, and LinuxONE
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/servicebinding-document-attributes.adoc[]
 :context: getting-started-with-service-binding-ibm-power-ibm-z
 

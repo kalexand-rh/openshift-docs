@@ -2,7 +2,9 @@
 :context: nodes-cluster-limit-ranges
 [id="nodes-cluster-limit-ranges"]
 = Restrict resource consumption with limit ranges
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-egress-router-configmap"]
 = Configuring an egress router pod destination list from a config map
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-egress-router-configmap
 
 toc::[]

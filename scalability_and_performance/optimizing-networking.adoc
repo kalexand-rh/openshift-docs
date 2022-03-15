@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="optimizing-networking"]
 = Optimizing networking
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: optimizing-networking
 
 toc::[]

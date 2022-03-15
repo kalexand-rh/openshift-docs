@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-ibm-cloud-account"]
 = Configuring an IBM Cloud account
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-ibm-cloud-account
 
 toc::[]

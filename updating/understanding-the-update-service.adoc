@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-the-update-service"]
 = Understanding the OpenShift Update Service
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-the-update-service
 
 toc::[]

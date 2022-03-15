@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="using-an-egress-router"]
 = Considerations for the use of an egress router pod
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: using-an-egress-router
 
 toc::[]

@@ -2,7 +2,9 @@
 [id="serverless-developing-go-functions"]
 = Developing Golang functions
 :context: serverless-developing-go-functions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

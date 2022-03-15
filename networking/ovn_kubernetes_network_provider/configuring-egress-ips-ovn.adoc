@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-egress-ips-ovn"]
 = Configuring an egress IP address
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-egress-ips-ovn
 
 toc::[]

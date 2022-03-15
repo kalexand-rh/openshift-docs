@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-firewall"]
 = Configuring your firewall
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-firewall
 
 toc::[]

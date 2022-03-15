@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="graceful-shutdown-cluster"]
 = Shutting down the cluster gracefully
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: graceful-shutdown-cluster
 
 toc::[]

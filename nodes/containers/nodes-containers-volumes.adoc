@@ -2,7 +2,9 @@
 :context: nodes-containers-volumes
 [id="nodes-containers-volumes"]
 = Using volumes to persist container data
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="overview-traffic"]
 = Configuring ingress cluster traffic overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: overview-traffic
 
 toc::[]

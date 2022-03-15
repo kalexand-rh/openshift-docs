@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-vmc-customizations"]
 = Installing a cluster on VMC with customizations
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-vmc-customizations
 
 toc::[]

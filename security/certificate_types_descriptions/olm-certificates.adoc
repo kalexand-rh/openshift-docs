@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cert-types-olm-certificates"]
 = OLM certificates
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cert-types-olm-certificates
 
 toc::[]

@@ -3,7 +3,9 @@
 [id="machineconfigpool-machineconfiguration-openshift-io-v1"]
 = MachineConfigPool [machineconfiguration.openshift.io/v1]
 ifdef::product-title[]
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 endif::[]
 
 toc::[]

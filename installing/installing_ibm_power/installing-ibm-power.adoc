@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-ibm-power"]
 = Installing a cluster on IBM Power
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-ibm-power
 
 toc::[]

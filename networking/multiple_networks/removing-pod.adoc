@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="removing-pod"]
 = Removing a pod from an additional network
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: removing-pod
 
 toc::[]

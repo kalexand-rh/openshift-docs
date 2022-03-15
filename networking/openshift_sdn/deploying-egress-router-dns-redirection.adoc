@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="deploying-egress-router-dns-redirection"]
 = Deploying an egress router pod in DNS proxy mode
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: deploying-egress-router-dns-redirection
 
 toc::[]

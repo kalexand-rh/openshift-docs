@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-rhv-default"]
 = Installing a cluster quickly on {rh-virtualization}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-rhv-default
 
 toc::[]

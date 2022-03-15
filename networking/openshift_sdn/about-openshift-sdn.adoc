@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="about-openshift-sdn"]
 = About the OpenShift SDN default CNI network provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: about-openshift-sdn
 
 toc::[]

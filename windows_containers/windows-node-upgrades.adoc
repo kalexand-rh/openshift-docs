@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="windows-node-upgrades"]
 = Windows node upgrades
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: windows-node-upgrades
 
 toc::[]

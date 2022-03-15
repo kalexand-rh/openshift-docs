@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="connected-to-disconnected"]
 = Converting a connected cluster to a disconnected cluster
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: connected-to-disconnected
 
 toc::[]

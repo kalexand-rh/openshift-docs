@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-a-custom-pki"]
 = Configuring a custom PKI
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-a-custom-pki
 
 toc::[]

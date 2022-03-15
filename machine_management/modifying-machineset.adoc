@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="modifying-machineset"]
 = Modifying a machine set
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: modifying-machineset
 
 toc::[]

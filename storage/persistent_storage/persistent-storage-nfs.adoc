@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-using-nfs"]
 = Persistent storage using NFS
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-nfs
 
 toc::[]

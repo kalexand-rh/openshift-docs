@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="installing-aws-vpc"]
 = Installing a cluster on AWS into an existing VPC
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: installing-aws-vpc
 
 toc::[]

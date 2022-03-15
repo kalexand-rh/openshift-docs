@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="uninstalling-openstack-user"]
 = Uninstalling a cluster on {rh-openstack} from your own infrastructure
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: uninstalling-openstack-user
 
 toc::[]

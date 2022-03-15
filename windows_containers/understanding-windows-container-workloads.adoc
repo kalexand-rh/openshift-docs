@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="understanding-windows-container-workloads"]
 = Understanding Windows container workloads
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: understanding-windows-container-workloads
 
 toc::[]

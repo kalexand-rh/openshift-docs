@@ -2,7 +2,9 @@
 :context: nodes-scheduler-overcommit
 [id="nodes-scheduler-overcommit"]
 = Placing pods onto overcommited nodes
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

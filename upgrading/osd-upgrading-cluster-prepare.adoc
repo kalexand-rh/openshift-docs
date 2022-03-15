@@ -1,6 +1,8 @@
 [id="osd-updating-cluster-prepare"]
 = Preparing to upgrade {product-title} to 4.9
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 ifdef::openshift-dedicated,openshift-rosa[]
 include::_attributes/attributes-openshift-dedicated.adoc[]
 endif::[]

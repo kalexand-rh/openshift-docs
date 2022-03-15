@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="compliance-operator-advanced"]
 = Performing advanced Compliance Operator tasks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: compliance-advanced
 
 toc::[]

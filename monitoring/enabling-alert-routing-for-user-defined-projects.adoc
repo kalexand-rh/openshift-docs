@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="enabling-alert-routing-for-user-defined-projects"]
 = Enabling alert routing for user-defined projects
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: enabling-alert-routing-for-user-defined-projects
 
 toc::[]

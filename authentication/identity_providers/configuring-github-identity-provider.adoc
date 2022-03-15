@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-github-identity-provider"]
 = Configuring a GitHub or GitHub Enterprise identity provider
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-github-identity-provider
 
 toc::[]

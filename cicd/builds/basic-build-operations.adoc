@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="basic-build-operations"]
 = Performing and configuring basic builds
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: basic-build-operations
 
 toc::[]

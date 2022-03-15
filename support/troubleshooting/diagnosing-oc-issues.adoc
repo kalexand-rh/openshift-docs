@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="diagnosing-oc-issues"]
 = Diagnosing OpenShift CLI (`oc`) issues
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: diagnosing-oc-issues
 
 toc::[]

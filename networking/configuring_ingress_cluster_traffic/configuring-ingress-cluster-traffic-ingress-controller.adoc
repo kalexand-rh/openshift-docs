@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="configuring-ingress-cluster-traffic-ingress-controller"]
 = Configuring ingress cluster traffic using an Ingress Controller
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: configuring-ingress-cluster-traffic-ingress-controller
 
 toc::[]

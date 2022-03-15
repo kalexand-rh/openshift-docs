@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="distr-tracing-deploying"]
 = Configuring and deploying distributed tracing
+ifndef::jupiter[]
 include::_attributes/distr-tracing-document-attributes.adoc[]
+endif::[]
 :context: deploying-distr-tracing-platform
 
 toc::[]

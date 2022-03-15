@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="deploying-a-spring-boot-application-with-argo-cd"]
 = Deploying a Spring Boot application with Argo CD
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: deploying-a-spring-boot-application-with-argo-cd
 
 toc::[]

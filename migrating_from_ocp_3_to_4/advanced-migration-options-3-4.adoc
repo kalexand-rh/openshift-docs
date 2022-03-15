@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="advanced-migration-options-3-4"]
 = Advanced migration options
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: advanced-migration-options-3-4
 :advanced-migration-options-3-4:
 

@@ -2,7 +2,9 @@
 [id="serverless-developing-quarkus-functions"]
 = Developing Quarkus functions
 :context: serverless-developing-quarkus-functions
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/serverless-document-attributes.adoc[]
 
 toc::[]

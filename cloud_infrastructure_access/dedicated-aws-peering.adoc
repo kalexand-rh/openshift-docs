@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="dedicated-aws-peering"]
 = Configuring AWS VPC peering
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: dedicated-aws-peering
 
 toc::[]

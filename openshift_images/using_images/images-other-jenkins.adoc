@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="images-other-jenkins"]
 = Configuring Jenkins images
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: images-other-jenkins
 
 toc::[]

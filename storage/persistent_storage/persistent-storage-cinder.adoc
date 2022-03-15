@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="persistent-storage-cinder"]
 = Persistent storage using Cinder
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: persistent-storage-cinder
 
 toc::[]

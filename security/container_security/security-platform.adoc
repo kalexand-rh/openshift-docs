@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-platform"]
 = Securing the container platform
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-platform
 
 toc::[]

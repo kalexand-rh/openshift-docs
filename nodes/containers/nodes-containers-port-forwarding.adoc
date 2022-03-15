@@ -2,7 +2,9 @@
 :context: nodes-containers-port-forwarding
 [id="nodes-containers-port-forwarding"]
 = Using port forwarding to access applications in a container
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

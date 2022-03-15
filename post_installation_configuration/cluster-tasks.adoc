@@ -2,7 +2,9 @@
 :context: post-install-cluster-tasks
 [id="post-install-cluster-tasks"]
 = Post-installation cluster tasks
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 include::_attributes/ossm-document-attributes.adoc[]
 
 toc::[]

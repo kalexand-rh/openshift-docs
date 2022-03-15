@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cluster-administrator-role"]
 = The cluster-admin role
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cluster-administrator
 
 toc::[]

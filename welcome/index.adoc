@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="welcome-index"]
 = {product-title} {product-version} Documentation
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: welcome-index
 
 [.lead]

@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="about-virtual-routing-and-forwarding"]
 = About virtual routing and forwarding
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: about-virtual-routing-and-forwarding
 
 toc::[]

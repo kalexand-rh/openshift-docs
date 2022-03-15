@@ -2,7 +2,9 @@
 [id="install-sno-installing-sno"]
 = Installing OpenShift on a single node
 :context: install-sno-installing-sno-with-the-assisted-installer
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

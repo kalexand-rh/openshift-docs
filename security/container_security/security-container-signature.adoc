@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="security-container-signature"]
 = Container image signatures
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: security-container-signature
 
 toc::[]

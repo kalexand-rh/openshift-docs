@@ -2,7 +2,9 @@
 :context: cluster-logging-exported-fields
 [id="cluster-logging-exported-fields"]
 = Log Record Fields
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

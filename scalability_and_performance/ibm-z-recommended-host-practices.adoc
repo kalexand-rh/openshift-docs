@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="ibm-z-recommended-host-practices"]
 = Recommended host practices for IBM Z & LinuxONE environments
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: ibm-z-recommended-host-practices
 
 toc::[]

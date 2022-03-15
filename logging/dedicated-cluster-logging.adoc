@@ -2,7 +2,9 @@
 :context: dedicated-cluster-logging
 [id="dedicated-cluster-logging"]
 = Configuring OpenShift Logging in {product-title}
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

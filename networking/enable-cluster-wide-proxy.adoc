@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="enable-cluster-wide-proxy"]
 = Configuring the cluster-wide proxy
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: config-cluster-wide-proxy
 
 toc::[]

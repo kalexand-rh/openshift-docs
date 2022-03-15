@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="cco-mode-sts"]
 = Using manual mode with STS
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: cco-mode-sts
 
 toc::[]

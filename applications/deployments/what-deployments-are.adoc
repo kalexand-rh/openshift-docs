@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="what-deployments-are"]
 = Understanding Deployment and DeploymentConfig objects
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: what-deployments-are
 
 toc::[]

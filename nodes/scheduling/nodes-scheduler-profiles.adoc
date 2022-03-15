@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="nodes-scheduler-profiles"]
 = Scheduling pods using a scheduler profile
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: nodes-scheduler-profiles
 
 toc::[]

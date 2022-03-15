@@ -2,7 +2,9 @@
 :context: nodes-scheduler-about
 [id="nodes-scheduler-about"]
 = Controlling pod placement using the scheduler
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 
 toc::[]
 

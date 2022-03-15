@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="encrypting-etcd"]
 = Encrypting etcd data
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: encrypting-etcd
 
 toc::[]
