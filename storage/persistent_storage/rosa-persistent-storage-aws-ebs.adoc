@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="rosa-persistent-storage-aws-ebs"]
 = Persistent storage using AWS Elastic Block Store (EBS)
-include::_attributes//attributes-openshift-dedicated.adoc[]
+ifndef::jupiter[]
+include::_attributes/attributes-openshift-dedicated.adoc[]
+endif::[]
 :context: rosa-persistent-storage-aws-ebs
 
 toc::[]
