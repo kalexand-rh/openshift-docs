@@ -1,6 +1,9 @@
 :_content-type: ASSEMBLY
 [id="admission-plug-ins"]
 = Admission plug-ins
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: admission-plug-ins
 
 toc::[]

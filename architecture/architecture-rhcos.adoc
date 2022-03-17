@@ -1,6 +1,9 @@
 :_content-type: ASSEMBLY
 [id="architecture-rhcos"]
 = {op-system-first}
+ifndef::jupiter[]
+include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: architecture-rhcos
 
 toc::[]
