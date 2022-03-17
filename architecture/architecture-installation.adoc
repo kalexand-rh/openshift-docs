@@ -1,9 +1,6 @@
 :_content-type: ASSEMBLY
 [id="architecture-installation"]
 = Installation and update
-ifndef::jupiter[]
-include::_attributes/common-attributes.adoc[]
-endif::[]
 :context: architecture-installation
 
 toc::[]

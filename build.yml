@@ -10,9 +10,13 @@ variants:
      included:
        - modules/**/*.adoc
        - snippets/*.adoc
+       - architecture/**/*.adoc
+       - images/*.png
+       - images/*.svg
+       - images/*.jpg
+     excluded:
        - welcome/**/*.adoc
        - release_notes/**/*.adoc
-       - architecture/**/*.adoc
        - installing/**/*.adoc
        - post_installation_configuration/**/*.adoc
        - updating/**/*.adoc
@@ -44,10 +48,40 @@ variants:
        - distr_tracing/**/*.adoc
        - virt/**/*.adoc
        - serverless/**/*.adoc
-       - images/*.png
-       - images/*.svg
-       - images/*.jpg
-     excluded:
+       - welcome/**/*.adoc
+       - release_notes/**/*.adoc
+       - installing/**/*.adoc
+       - post_installation_configuration/**/*.adoc
+       - updating/**/*.adoc
+       - support/**/*.adoc
+       - web_console/**/*.adoc
+       - cli_reference/**/*.adoc
+       - security/**/*.adoc
+       - authentication/**/*.adoc
+       - networking/**/*.adoc
+       - storage/**/*.adoc
+       - registry/**/*.adoc
+       - operators/**/*.adoc
+       - cicd/**/*.adoc
+       - openshift_images/**/*.adoc
+       - applications/**/*.adoc
+       - machine_management/**/*.adoc
+       - nodes/**/*.adoc
+       - windows_containers/**/*.adoc
+       - sandboxed_containers/**/*.adoc
+       - logging/**/*.adoc
+       - monitoring/**/*.adoc
+       - metering/**/*.adoc
+       - scalability_and_performance/**/*.adoc
+       - backup_and_restore/**/*.adoc
+       - migrating_from_ocp_3_to_4/**/*.adoc
+       - migration_toolkit_for_containers/**/*.adoc
+       - rest_api/**/*.adoc
+       - service_mesh/**/*.adoc
+       - distr_tracing/**/*.adoc
+       - virt/**/*.adoc
+       - serverless/**/*.adoc
+       
        - contributing_to_docs/**/*.adoc
        - whats_new/**/*.adoc
        - mod_docs_guide/**/*.adoc
