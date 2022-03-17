@@ -1,7 +1,9 @@
 :_content-type: ASSEMBLY
 [id="architecture-overview"]
 = Architecture overview
+ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
+endif::[]
 :context: architecture-overview
 
 toc::[]
@@ -16,7 +18,7 @@ To learn more about {product-title} and Kubernetes, see xref:../architecture/arc
 As a cluster administrator, you can use the {product-title} xref:../architecture/architecture-installation.adoc#architecture-installation[installation program] to install and deploy a cluster by using one of the following methods:
 
 ** Installer-provisioned infrastructure
-** User-provisioned infrastructure
+** User-provisioned infrastructure 
 
 [id="about-control-planes"]
 == About the control plane
