@@ -38,6 +38,9 @@ include::modules/cluster-entitlements.adoc[leveloffset=+1]
 
 include::modules/installation-vsphere-infrastructure.adoc[leveloffset=+1]
 
+include::modules/vmware-csi-driver-reqs.adoc[leveloffset=+1]
+For more information about removing a third-party CSI driver, see xref:../../storage/container_storage_interface/persistent-storage-csi-vsphere.adoc#persistent-storage-csi-vsphere-install-issues_persistent-storage-csi-vsphere[Removing a third-party vSphere CSI Operator Driver].
+
 [role="_additional-resources"]
 .Additional resources
 
