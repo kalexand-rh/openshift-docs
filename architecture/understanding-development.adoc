@@ -1,9 +1,7 @@
 :_content-type: ASSEMBLY
 [id="understanding-development"]
 = Understanding {product-title} development
-ifndef::jupiter[]
 include::_attributes/common-attributes.adoc[]
-endif::[]
 :context: understanding-development
 
 toc::[]
