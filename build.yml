@@ -95,6 +95,13 @@ variants:
        - scripts/**/*.*
        - upgrading/**/*.adoc
        - whats_new/**/*.adoc
+       - networking/external_dns_operator/nw-installing-external-dns-operator-on-cloud-providers.adoc
+       - networking/external_dns_operator/nw-creating-dns-records-on-azure.adoc
+       - networking/external_dns_operator/nw-creating-dns-records-on-aws.adoc
+       - networking/external_dns_operator/nw-configuration-parameters.adoc
+       - networking/external_dns_operator/nw-creating-dns-records-on-gcp.adoc
+       - updating/updating-cluster-prepare.adoc
+       - service_mesh/v1x/ossm-config.adoc
  - name: openshift-dedicated
    attributes:
     - _attributes/osd-attributes.adoc
