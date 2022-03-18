@@ -62,3 +62,7 @@ endif::[]
 :odo-title: odo
 //alibaba cloud
 :alibaba: Alibaba Cloud
+// servicebinding
+:servicebinding-title: Service Binding Operator
+:servicebinding-shortname: Service Binding
+:servicebinding-ver: servicebinding-1.0

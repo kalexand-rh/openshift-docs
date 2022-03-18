@@ -2,7 +2,6 @@
 [id="exposing-binding-data-from-a-service"]
 = Exposing binding data from a service
 include::_attributes/common-attributes.adoc[]
-include::_attributes/servicebinding-document-attributes.adoc[]
 :context: exposing-binding-data-from-a-service
 
 toc::[]

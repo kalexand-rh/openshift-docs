@@ -2,7 +2,6 @@
 [id="getting-started-with-service-binding-ibm-power-ibm-z"]
 = Getting started with service binding on IBM Power Systems, IBM Z, and LinuxONE
 include::_attributes/common-attributes.adoc[]
-include::_attributes/servicebinding-document-attributes.adoc[]
 :context: getting-started-with-service-binding-ibm-power-ibm-z
 
 toc::[]
