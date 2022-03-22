@@ -5,7 +5,7 @@ variants:
     - _attributes/ocp-attributes.adoc
     - _attributes/common-attributes.adoc
    nav: _artifacts/toc.yml
-   build: true
+   build: false
    files:
      included:
        - _attributes/*.adoc
@@ -106,7 +106,7 @@ variants:
    attributes:
     - _attributes/osd-attributes.adoc
     - _attributes/attributes-openshift-dedicated.adoc
-   build: false
+   build: true
    files:
      included:
        - adding_service_cluster/**/*.adoc
@@ -199,7 +199,7 @@ variants:
    attributes:
     - _attributes/rosa-attributes.adoc
     - _attributes/attributes-openshift-dedicated.adoc
-   build: false
+   build: true
    files:
      included:
        - adding_service_cluster/**/*.adoc
