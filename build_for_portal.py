@@ -42,6 +42,7 @@ MASTER_FILE_BASE = "= {title}\n\
 :product-title: {product}\n\
 :product-version: {product-version}\n\
 :{distro}:\n\
+:PV1: true\n\  
 :imagesdir: images\n\
 :idseparator: -\n\
 {preface-title}\n"
