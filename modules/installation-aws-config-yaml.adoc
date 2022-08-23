@@ -65,6 +65,7 @@ endif::china,gov,secret[]
 
 [source,yaml]
 ----
+include::snippets/some-yaml.adoc
 apiVersion: v1
 baseDomain: example.com <1>
 credentialsMode: Mint <2>
