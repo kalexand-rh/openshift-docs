@@ -41,6 +41,7 @@ MASTER_FILE_BASE = "= {title}\n\
 :product-author: {product-author}\n\
 :product-title: {product}\n\
 :product-version: {product-version}\n\
+:oke: {oke}\n\
 :{distro}:\n\
 :imagesdir: images\n\
 :idseparator: -\n\
