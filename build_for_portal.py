@@ -55,7 +55,15 @@ MASTER_FILE_BASE = "= {title}\n\
 :{distro}:\n\
 :imagesdir: images\n\
 :idseparator: -\n\
-{preface-title}\n"
+{preface-title}\n\
+:context: {unique_id_from_title}\n\
+\n\
+{inclusive_include_statement}\n\
+\n\
+{ddf_include_statement}\n\
+\n\
+:!context: {unique_id_from_title}\n\
+\n"
 
 DOCINFO_BASE = '<title>{title}</title>\n\
 <productname>{{product-title}}</productname>\n\
@@ -289,6 +297,14 @@ def build_master_files(info):
 
         book_info = dict(info)
         book_info["title"] = book["Name"]
+        book_info[
+            "inclusive_include_statement"
+        ] = "include::includes/making-open-source-more-inclusive.adoc[leveloffset=+1]"
+        book_info[
+            "ddf_include_statement"
+        ] = "include::includes/providing-direct-documentation-feedback.adoc[leveloffset=+1]"
+        unique_id = book["Dir"] + "_" + book_info["title"].lower().replace(" ", "-")
+        book_info["unique_id_from_title"] = unique_id
 
         master: str = generate_master_entry(
             book, book["Dir"], info["distro"], all_in_one, all_in_one=all_in_one
@@ -343,9 +359,18 @@ def build_master_files(info):
                     # TODO: Make less hacky.
                     book_info["title"] = topic["Name"]
                     info["title"] = topic["Name"]
+                    book_info[
+                        "inclusive_include_statement"
+                    ] = "include::includes/making-open-source-more-inclusive.adoc[leveloffset=+1]"
+                    book_info[
+                        "ddf_include_statement"
+                    ] = "include::includes/providing-direct-documentation-feedback.adoc[leveloffset=+1]"
+                    unique_id = (
+                        book["Dir"] + "_" + book_info["title"].lower().replace(" ", "-")
+                    )
+                    book_info["unique_id_from_title"] = unique_id
 
                     master_base = MASTER_FILE_BASE.format(**book_info)
-                    docinfo_node = topic["Name"]
 
                     ensure_directory(os.path.join(book_dest_dir, topic["Dir"]))
                     sub_master = generate_master_entry(
