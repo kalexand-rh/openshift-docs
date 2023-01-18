@@ -4,7 +4,7 @@
 include::_attributes/common-attributes.adoc[]
 :context: spo-overview
 
-{product-title} Security Profiles Operator (SPO) provides a way to define secure computing (https://kubernetes.io/docs/tutorials/security/seccomp/[seccomp]) profiles and SELinux profiles as custom resources, synchronizing profiles to every node in a given namespace. For the latest updates, see the xref:../security_profiles_operator/spo-release-notes.adoc#spo-release-notes[release notes].
+{product-title} Security Profiles Operator (SPO) provides a way to define secure computing (https://kubernetes.io/docs/tutorials/security/seccomp/[seccomp]) profiles and SELinux profiles as custom resources, synchronizing profiles to every node in a given namespace. For the latest updates, see the xref:../security_profiles_operator/spo-release-notes.adoc#spo-release-note[release notes].
 
 The SPO can distribute custom resources to each node while a reconciliation loop ensures that the profiles stay up-to-date. See xref:../security_profiles_operator/spo-understanding.adoc#spo-understanding[Understanding the Security Profiles Operator].
 
