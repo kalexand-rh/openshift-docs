@@ -46,9 +46,6 @@ TAG_CONTENT_RE = re.compile(
 )
 CMP_IGNORE_FILES = [".git", ".gitignore", "README.md", "build.cfg"]
 DEVNULL = open(os.devnull, "wb")
-# LIST_OF_HUGE_BOOKS: list = ["Installing", "API reference", "CI/CD"]
-LIST_OF_HUGE_BOOKS: list = ["CI/CD"]
-
 
 MASTER_FILE_BASE = "= {title}\n\
 :product-author: {product-author}\n\
@@ -278,21 +275,30 @@ def expand_huge_books(info):
     Finds nodes for huge books, creates new nodes for books from their top-level topics,
     and then removes the nodes for huge books
     """
-    huge_book_nodes = []
-    additional_nodes = []
-    for book in info["book_nodes"]:
-        if book["Name"] in LIST_OF_HUGE_BOOKS:
-            huge_book_nodes.append(book)
-            info["huge_book_dirs"].append(book["Dir"])
-            huge_book_topics = book["Topics"]
+
+    # find all the huge books, sa defined by nodes
+    huge_book_nodes = [book for book in info["book_nodes"]
+        if os.path.exists(os.path.join(info["src_dir"],book["Dir"],"hugeBook.flag")) ]
+
+
+    for book in huge_book_nodes:
+            # save the directory in info
             huge_book_dir = book["Dir"]
-            for topic in huge_book_topics:
+            info["huge_book_dirs"].append(huge_book_dir)
+            # create the flag file in the book destination directory
+            book_dest_dir = os.path.join(info["dest_dir"], book["Dir"])
+            ensure_directory(book_dest_dir)
+            with open(os.path.join(book_dest_dir,"hugeBook.flag"),"w") as fi:
+                fi.write("hugebook")
+            # make new book nodes for the second-level headings
+            for topic in book["Topics"]:
                 if "Dir" in topic.keys():
+                    info["book_nodes"].append(topic)
                     topic["Dir"] = huge_book_dir + "/" + topic["Dir"]
-                    additional_nodes.append(topic)
+
+    # remove book nodes for huge books
     for node_to_remove in huge_book_nodes:
         info["book_nodes"].remove(node_to_remove)
-    info["book_nodes"].extend(additional_nodes)
 
 
 def build_master_files(info):
