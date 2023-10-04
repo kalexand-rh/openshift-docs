@@ -13,8 +13,6 @@ import subprocess
 import sys
 import tempfile
 import time
-from typing import Set
-
 import requests
 import yaml
 
@@ -48,7 +46,9 @@ TAG_CONTENT_RE = re.compile(
 )
 CMP_IGNORE_FILES = [".git", ".gitignore", "README.md", "build.cfg"]
 DEVNULL = open(os.devnull, "wb")
-LIST_OF_HUGE_BOOKS: list = ["Installing", "API reference", "CI/CD"]
+# LIST_OF_HUGE_BOOKS: list = ["Installing", "API reference", "CI/CD"]
+LIST_OF_HUGE_BOOKS: list = ["CI/CD"]
+
 
 MASTER_FILE_BASE = "= {title}\n\
 :product-author: {product-author}\n\
@@ -212,13 +212,13 @@ def parse_build_config(config):
 
 
 def iter_tree(
-        node,
-        distro,
-        dir_callback=None,
-        topic_callback=None,
-        include_path=True,
-        parent_dir="",
-        depth=0,
+    node,
+    distro,
+    dir_callback=None,
+    topic_callback=None,
+    include_path=True,
+    parent_dir="",
+    depth=0,
 ):
     """
     Iterates over a build config tree starting from a specific node, skipping content where the distro doesn't match.
@@ -271,7 +271,28 @@ def ensure_directory(directory):
     Creates DIRECTORY if it does not exist.
     """
     if not os.path.exists(directory):
-        os.mkdir(directory)
+        os.makedirs(directory)
+
+def expand_huge_books(info):
+    """
+    Finds nodes for huge books, creates new nodes for books from their top-level topics,
+    and then removes the nodes for huge books
+    """
+    huge_book_nodes = []
+    additional_nodes = []
+    for book in info["book_nodes"]:
+        if book["Name"] in LIST_OF_HUGE_BOOKS:
+            huge_book_nodes.append(book)
+            info["huge_book_dirs"].append(book["Dir"])
+            huge_book_topics = book["Topics"]
+            huge_book_dir = book["Dir"]
+            for topic in huge_book_topics:
+                if "Dir" in topic.keys():
+                    topic["Dir"] = huge_book_dir + "/" + topic["Dir"]
+                    additional_nodes.append(topic)
+    for node_to_remove in huge_book_nodes:
+        info["book_nodes"].remove(node_to_remove)
+    info["book_nodes"].extend(additional_nodes)
 
 
 def build_master_files(info):
@@ -279,11 +300,15 @@ def build_master_files(info):
     Builds the master.adoc and docinfo.xml files for each guide specified in the config.
     """
 
+    # change the huge books into sub-books
+    expand_huge_books(info)
+
     # TODO: Refactor. This does too much.
 
     dest_dir = info["dest_dir"]
     all_in_one = info["all_in_one"]
     all_in_one_text = ""
+
     for book in info["book_nodes"]:
 
         book_dest_dir = os.path.join(dest_dir, book["Dir"])
@@ -330,40 +355,6 @@ def build_master_files(info):
                     info["preface-title"] = ":preface-title: " + preface_title
             all_in_one_text += master
 
-        if book["Name"] in LIST_OF_HUGE_BOOKS:
-            huge_book_topics = book["Topics"]
-
-            for topic in huge_book_topics:
-                if "Dir" in topic.keys():
-                    topic_master_file = os.path.join(
-                        book_dest_dir, topic["Dir"], "master.adoc"
-                    )
-                    topic_docinfo_file = os.path.join(
-                        book_dest_dir, topic["Dir"], "docinfo.xml"
-                    )
-
-                    # TODO: Make less hacky.
-                    book_info["title"] = topic["Name"]
-                    info["title"] = topic["Name"]
-
-                    master_base = MASTER_FILE_BASE.format(**book_info)
-                    docinfo_node = topic["Name"]
-
-                    ensure_directory(os.path.join(book_dest_dir, topic["Dir"]))
-                    sub_master = generate_master_entry(
-                        topic,
-                        topic["Dir"],
-                        info["distro"],
-                        all_in_one,
-                        all_in_one=all_in_one,
-                    )
-
-                    log.debug("Writing " + topic_master_file)
-                    with open(topic_master_file, "w") as f:
-                        f.write(master_base + sub_master)
-                    log.debug("Writing " + topic_docinfo_file)
-                    with open(topic_docinfo_file, "w") as f:
-                        f.write(DOCINFO_BASE.format(**info))
     # TODO: And is this ever used?
     if all_in_one:
         master_file = os.path.join(dest_dir, "master.adoc")
@@ -380,7 +371,7 @@ def build_master_files(info):
 
 
 def generate_master_entry(
-        node: dict, book_dir: str, distro: str, include_name=True, all_in_one=False
+    node: dict, book_dir: str, distro: str, include_name=True, all_in_one=False
 ):
     """
     Given a node (book dict), generate content for that node's master.adoc file.
@@ -504,19 +495,20 @@ def copy_files(node, book_src_dir, src_dir, dest_dir, info):
 
 
 def copy_file(
-        info,
-        book_src_dir,
-        src_file,
-        dest_dir,
-        dest_file,
-        include_check=True,
-        tag=None,
-        cwd=None,
+    info,
+    book_src_dir,
+    src_file,
+    dest_dir,
+    dest_file,
+    include_check=True,
+    tag=None,
+    cwd=None,
 ):
     """
     Copies a source file to destination, making sure to scrub the content, add id's where the content is referenced elsewhere and fix any
     links that should be cross references. Also copies any includes that are referenced, since they aren't included in _build_cfg.yml.
     """
+
     # It's possible that the file might have been created by another include, if so then just return
     if os.path.isfile(dest_file):
         return
@@ -546,6 +538,7 @@ def copy_file(
                     key, value = re.split("\s*=\s*", meta, 2)
                     include_vars[key] = value
 
+
             # Determine the include src/dest paths
             include_file = os.path.join(os.path.dirname(book_src_dir), include_path)
             relative_path = os.path.relpath(include_file, os.path.dirname(src_file))
@@ -554,8 +547,8 @@ def copy_file(
             relative_book_path = os.path.relpath(include_file, book_src_dir)
 
             if relative_book_path.startswith("../"):
-                path, src_book_name = os.path.split(book_src_dir)
-                dest_include_dir = os.path.join(dest_dir, src_book_name, "includes")
+                src_book_relative_dir = os.path.relpath(book_src_dir,info["src_dir"])
+                dest_include_dir = os.path.join(dest_dir, src_book_relative_dir, "includes")
                 relative_path = os.path.join(
                     os.path.relpath(dest_include_dir, parent_dir),
                     os.path.basename(include_file),
@@ -659,9 +652,9 @@ def scrub_file(info, book_src_dir, src_file, tag=None, cwd=None):
                 header_found = True
 
                 if (
-                        info["all_in_one"]
-                        and base_src_file in ALL_IN_ONE_SCRAP_TITLE
-                        and line.startswith("= ")
+                    info["all_in_one"]
+                    and base_src_file in ALL_IN_ONE_SCRAP_TITLE
+                    and line.startswith("= ")
                 ):
                     continue
                 # Add a section id if one doesn't exist, so we have something to link to
@@ -672,9 +665,9 @@ def scrub_file(info, book_src_dir, src_file, tag=None, cwd=None):
             elif line.startswith("=") and current_id is None:
                 for title in title_ids:
                     title_re = (
-                            r"^=+ "
-                            + title.replace(".", "\\.").replace("?", "\\?")
-                            + "( (anchor|\[).*?)?(\n)?$"
+                        r"^=+ "
+                        + title.replace(".", "\\.").replace("?", "\\?")
+                        + "( (anchor|\[).*?)?(\n)?$"
                     )
                     if re.match(title_re, line):
                         content += "[[" + title_ids[title] + "]]\n"
@@ -723,7 +716,7 @@ def fix_links(content, info, book_src_dir, src_file, tag=None, cwd=None):
     Fix any links that were done incorrectly and reference the output instead of the source content.
     """
     if info["all_in_one"]:
-        content = fix_links(content, info["src_dir"], src_file, info)
+        content = _fix_links(content, info["src_dir"], src_file, info)
     else:
         # Determine if the tag should be passed when fixing the links. If it's in the same book, then process the entire file. If it's
         # outside the book then don't process it.
@@ -736,11 +729,27 @@ def fix_links(content, info, book_src_dir, src_file, tag=None, cwd=None):
 
     return content
 
+def dir_to_book_name(dir,src_file,info):
+    # find a book name by the directory
+    for book in info["book_nodes"]:
+        if book["Dir"] == dir:
+            return(book["Name"])
+            break
+
+    has_errors = True
+    log.error(
+        'ERROR (%s): book not found for the directory %s',
+        src_file,
+        dir)
+    return(dir)
+
 
 def _fix_links(content, book_dir, src_file, info, tag=None, cwd=None):
     """
     Fix any links that were done incorrectly and reference the output instead of the source content.
     """
+    current_book_name = dir_to_book_name(os.path.relpath(book_dir,info["src_dir"]),src_file,info)
+
     # TODO Deal with xref so that they keep the proper path. Atm it'll just strip the path and leave only the id
     file_to_id_map = info["file_to_id_map"]
     current_dir = cwd or os.path.dirname(src_file)
@@ -753,6 +762,14 @@ def _fix_links(content, book_dir, src_file, info, tag=None, cwd=None):
         link_anchor = link.group(2)
         link_title = link.group(3)
 
+        # sanity check - is this a link to an external site?
+        # apparently the link macro CAN be used for internal links too, so just testing for http
+        # NOTE: a docs.openshift.com link would not process here corectly, anyway, so let it pass through
+        if ("http:" in link_text) or ("https:" in link_text):
+            continue
+
+        fixed_link = "" # setting the scope of fixed_link outside the if statements
+
         if link_file is not None:
             fixed_link_file = link_file.replace(".html", ".adoc")
             fixed_link_file_abs = os.path.abspath(
@@ -760,32 +777,41 @@ def _fix_links(content, book_dir, src_file, info, tag=None, cwd=None):
             )
             if fixed_link_file_abs in file_to_id_map:
 
-                # We are dealing with a cross reference to another book here
-                external_link = EXTERNAL_LINK_RE.search(link_file)
-                book_dir_name = external_link.group(1)
+                # We are dealing with a cross reference to a book here
+                full_relative_path = os.path.relpath(fixed_link_file_abs,info["src_dir"])
+
+                if full_relative_path[:2]=="..":
+                    log.error(
+                        'ERROR (%s): link pointing outside source directory? %s',
+                        src_file,
+                        link_file)
+                    continue
+                split_relative_path = full_relative_path.split("/")
+                book_dir_name = split_relative_path[0]
+                if book_dir_name in info["huge_book_dirs"]:
+                    book_dir_name = split_relative_path[0]+"/"+split_relative_path[1]
 
                 # Find the book name
-                book_name = book_dir_name
-                for book in info["data"]:
-                    if (
-                            check_node_distro_matches(book, info["distro"])
-                            and book["Dir"] == book_dir_name
-                    ):
-                        book_name = book["Name"]
-                        break
+                book_name = dir_to_book_name(book_dir_name,src_file,info)
 
-                fixed_link_file = BASE_PORTAL_URL + build_portal_url(info, book_name)
 
-                if link_anchor is None:
-                    fixed_link = (
+                if book_name==current_book_name:
+                    if link_anchor is None:
+                        fixed_link = "xref:" + file_to_id_map[fixed_link_file_abs] + link_title
+                    else:
+                        fixed_link = "xref:" + link_anchor.replace("#", "") + link_title
+                else:
+                    fixed_link_file = BASE_PORTAL_URL + build_portal_url(info, book_name)
+                    if link_anchor is None:
+                        fixed_link = (
                             "link:"
                             + fixed_link_file
                             + "#"
                             + file_to_id_map[fixed_link_file_abs]
                             + link_title
-                    )
-                else:
-                    fixed_link = "link:" + fixed_link_file + link_anchor + link_title
+                        )
+                    else:
+                        fixed_link = "link:" + fixed_link_file + link_anchor + link_title
             else:
                 # Cross reference or link that isn't in the docs suite
                 fixed_link = link_text
@@ -932,12 +958,12 @@ def build_portal_url(info, book_name):
     version = info["product-version"]
 
     return (
-            generate_url_from_name(product)
-            + "/"
-            + generate_url_from_name(version)
-            + "/html-single/"
-            + generate_url_from_name(book_name)
-            + "/"
+        generate_url_from_name(product)
+        + "/"
+        + generate_url_from_name(version)
+        + "/html-single/"
+        + generate_url_from_name(book_name)
+        + "/"
     )
 
 
@@ -1093,99 +1119,6 @@ def parse_repo_config(config_file, distro, version):
     return repo_urls
 
 
-def collect_master_adoc_files(project_path=os.path.abspath(os.curdir)):
-    """Given the project path, return a list of all master.adoc file paths."""
-
-    master_adoc_collection = []
-
-    for project_dir, dirs, files in os.walk(project_path, topdown=True):
-        if "master.adoc" in files:
-            master_path = os.path.join(project_dir, "master.adoc")
-            master_adoc_collection.append(master_path)
-
-    return master_adoc_collection
-
-
-def create_symlinks_to_project_root_from_master_files(
-        list_of_master_file_paths, distro="openshift-enterprise"
-):
-    """Create symlinks for every master.adoc-containing
-    directory to the openshift-docs project root."""
-
-    drupal_build_path_includes_dir = os.path.join(
-        os.path.abspath(os.curdir), "drupal-build", distro, "includes"
-    )
-
-    if not os.path.exists(drupal_build_path_includes_dir):
-        os.mkdir(drupal_build_path_includes_dir)
-
-    for path in list_of_master_file_paths:
-        directory = os.path.split(path)[0]
-        book_includes_dir = os.path.join(directory, "includes")
-        if not os.path.isdir(book_includes_dir):
-            os.symlink(drupal_build_path_includes_dir, book_includes_dir)
-
-
-def guarantee_symlinks_to_project_root(distro="openshift-enterprise"):
-    """For dirs that have assemblies in them that are not master.adoc or index.adoc files, create symlinks to the
-    project root. """
-
-    drupal_build_path_includes_dir = os.path.join(
-        os.path.abspath(os.curdir), "drupal-build", distro, "includes"
-    )
-
-    if not os.path.exists(drupal_build_path_includes_dir):
-        os.mkdir(drupal_build_path_includes_dir)
-
-    for dir_path, dir_names, files in os.walk(os.path.join(
-        os.path.abspath(os.curdir), "drupal-build", distro
-    ), topdown=True):
-        combo_files = '\t'.join(files)
-
-        if ".adoc" in combo_files:
-            target_includes_dir = os.path.join(dir_path, "includes")
-            if not os.path.isdir(target_includes_dir):
-                os.symlink(drupal_build_path_includes_dir, target_includes_dir)
-
-    includes_within_includes_path = os.path.join(os.path.abspath(os.curdir), "drupal-build", distro, "includes", "includes")
-    if os.path.exists(includes_within_includes_path):
-        os.unlink(includes_within_includes_path)
-
-
-
-def retrieve_all_drupal_build_adoc_files(distro="openshift-enterprise"):
-    """Retrieve all AsciiDoc files from drupal-build directory."""
-
-    drupal_build_path = os.path.join(
-        os.path.abspath(os.curdir),
-        "drupal-build",
-        distro,
-    )
-
-    adoc_collection = set()
-
-    for build_dir, dirs, files in os.walk(drupal_build_path, topdown=True):
-        for file in files:
-            if file.endswith(".adoc"):
-                location = os.path.join(build_dir, file)
-                adoc_collection.add(location)
-
-    return adoc_collection
-
-
-def rewrite_include_statements(adoc_file_set):
-    """Given a set of fully qualified file paths, find and replace jail-inducing `include` paths with same-dir
-    symlink paths."""
-
-    for adoc_file in adoc_file_set:
-        with open(adoc_file, "r") as file:
-            file_content = file.read()
-            altered_content = re.sub("::[./]*", "::", file_content)
-
-        with open(adoc_file, "w") as file:
-            file.write(altered_content)
-
-
 def main():
     parser = setup_parser()
     args = parser.parse_args()
@@ -1228,27 +1161,15 @@ def main():
         "all_in_one": args.all_in_one,
         "preface-title": "",
         "upstream_branch": args.upstream_branch,
+        "huge_book_dirs": []
     }
 
     # Build the master files
     log.info("Building the drupal files")
     build_master_files(info)
 
-    create_symlinks_to_project_root_from_master_files(
-        collect_master_adoc_files(), args.distro
-    )
-
-    # guarantee_symlinks_to_project_root()
-
     # Copy the original data and reformat for drupal
     reformat_for_drupal(info)
-
-    guarantee_symlinks_to_project_root()
-
-    # Hack symlink references into assemblies.
-    adoc_files: set = retrieve_all_drupal_build_adoc_files()
-
-    rewrite_include_statements(adoc_files)
 
     if has_errors:
         sys.exit(1)
