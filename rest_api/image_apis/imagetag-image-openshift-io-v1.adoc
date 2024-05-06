@@ -46,7 +46,7 @@ Compatibility level 1: Stable within a major release for a minimum of 12 months 
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | metadata is the standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -110,7 +110,7 @@ Type::
 | ImageManifest represents sub-manifests of a manifest list. The Digest field points to a regular Image object.
 
 | `dockerImageMetadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.runtime.RawExtension[`RawExtension`]
+| 'RawExtension`
 | DockerImageMetadata contains metadata about this image
 
 | `dockerImageMetadataVersion`
@@ -130,7 +130,7 @@ Type::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | metadata is the standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `signatures`
@@ -304,7 +304,7 @@ Required::
 | Required: An opaque binary string which is an image's signature.
 
 | `created`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | If specified, it is the time of signature's creation.
 
 | `imageIdentity`
@@ -324,7 +324,7 @@ Required::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | metadata is the standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `signedClaims`
@@ -370,11 +370,11 @@ Required::
 | Property | Type | Description
 
 | `lastProbeTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Last time the condition was checked.
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Last time the condition transit from one status to another.
 
 | `message`
@@ -634,7 +634,7 @@ Required::
 | Generation is the spec tag generation that this status corresponds to
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | LastTransitionTIme is the time the condition transitioned from one status to another.
 
 | `message`
@@ -690,7 +690,7 @@ Required::
 | Property | Type | Description
 
 | `created`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Created holds the time the TagEvent was created
 
 | `dockerImageReference`

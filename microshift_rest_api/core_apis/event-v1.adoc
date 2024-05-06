@@ -45,7 +45,7 @@ Required::
 | Time when this Event was first observed.
 
 | `firstTimestamp`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | The time at which the event was first recorded. (Time of server receipt is in TypeMeta.)
 
 | `involvedObject`
@@ -57,7 +57,7 @@ Required::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `lastTimestamp`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | The time at which the most recent occurrence of this event was recorded.
 
 | `message`
@@ -65,7 +65,7 @@ Required::
 | A human-readable description of the status of this operation.
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `reason`

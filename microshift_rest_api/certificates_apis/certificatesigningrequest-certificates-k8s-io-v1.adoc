@@ -42,7 +42,7 @@ Required::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 |
 
 | `spec`
@@ -253,11 +253,11 @@ Required::
 | Property | Type | Description
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | lastTransitionTime is the time the condition last transitioned from one status to another. If unset, when a new condition type is added or an existing condition's status is changed, the server defaults this to the current time.
 
 | `lastUpdateTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | lastUpdateTime is the time of the last update to this condition
 
 | `message`

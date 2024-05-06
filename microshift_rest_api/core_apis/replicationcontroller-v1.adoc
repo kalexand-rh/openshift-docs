@@ -34,7 +34,7 @@ Type::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | If the Labels of a ReplicationController are empty, they are defaulted to be the same as the Pod(s) that the replication controller manages. Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -98,7 +98,7 @@ Type::
 | Property | Type | Description
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -8552,7 +8552,7 @@ Required::
 | Property | Type | Description
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
 
 | `spec`
@@ -10135,7 +10135,7 @@ Required::
 | Property | Type | Description
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | The last time the condition transitioned from one status to another.
 
 | `message`

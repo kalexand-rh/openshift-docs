@@ -40,7 +40,7 @@ Required::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | metadata is the standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -1672,7 +1672,7 @@ Type::
 | ImageStreamTagReference references the ImageStreamTag in an image change trigger by namespace and name.
 
 | `lastTriggerTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | lastTriggerTime is the last time this particular ImageStreamTag triggered a Build to start. This field is only updated when this trigger specifically started a Build.
 
 | `lastTriggeredImageID`

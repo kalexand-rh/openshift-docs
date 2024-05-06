@@ -34,7 +34,7 @@ Type::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | metadata is the standard object metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -865,7 +865,7 @@ Required::
 | desiredReplicas is the desired number of replicas of pods managed by this autoscaler, as last calculated by the autoscaler.
 
 | `lastScaleTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | lastScaleTime is the last time the HorizontalPodAutoscaler scaled the number of pods, used by the autoscaler to control how often the number of pods is changed.
 
 | `observedGeneration`
@@ -907,7 +907,7 @@ Required::
 | Property | Type | Description
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | lastTransitionTime is the last time the condition transitioned from one status to another
 
 | `message`

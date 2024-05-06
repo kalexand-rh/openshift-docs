@@ -36,7 +36,7 @@ Type::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | metadata is the standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -1939,7 +1939,7 @@ Required::
 | cancelled describes if a cancel event was triggered for the build.
 
 | `completionTimestamp`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | completionTimestamp is a timestamp representing the server time when this Build was finished, whether that build failed or succeeded.  It reflects the time at which the Pod running the Build terminated. It is represented in RFC3339 form and is in UTC.
 
 | `conditions`
@@ -1991,7 +1991,7 @@ Required::
 | StageInfo contains details about a build stage.
 
 | `startTimestamp`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | startTimestamp is a timestamp representing the server time when this Build started running in a Pod. It is represented in RFC3339 form and is in UTC.
 
 |===
@@ -2029,11 +2029,11 @@ Required::
 | Property | Type | Description
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | The last time the condition transitioned from one status to another.
 
 | `lastUpdateTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | The last time this condition was updated.
 
 | `message`
@@ -2138,7 +2138,7 @@ Type::
 | name is a unique identifier for each build stage that occurs.
 
 | `startTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | startTime is a timestamp representing the server time when this Stage started. It is represented in RFC3339 form and is in UTC.
 
 | `steps`
@@ -2189,7 +2189,7 @@ Type::
 | name is a unique identifier for each build step.
 
 | `startTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | startTime is a timestamp representing the server time when this Step started. it is represented in RFC3339 form and is in UTC.
 
 |===

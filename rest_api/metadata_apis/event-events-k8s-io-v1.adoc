@@ -40,11 +40,11 @@ Required::
 | deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
 
 | `deprecatedFirstTimestamp`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | deprecatedFirstTimestamp is the deprecated field assuring backward compatibility with core.v1 Event type.
 
 | `deprecatedLastTimestamp`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | deprecatedLastTimestamp is the deprecated field assuring backward compatibility with core.v1 Event type.
 
 | `deprecatedSource`
@@ -60,7 +60,7 @@ Required::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `note`

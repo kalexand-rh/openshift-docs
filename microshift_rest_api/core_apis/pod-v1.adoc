@@ -34,7 +34,7 @@ Type::
 | Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
 
 | `spec`
@@ -8492,7 +8492,7 @@ Required::
 | Property | Type | Description
 
 | `metadata`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta[`ObjectMeta`]
+| `ObjectMeta`
 | May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
 
 | `spec`
@@ -10101,7 +10101,7 @@ Possible enum values:
 | Status of resources resize desired for pod's containers. It is empty if no resources resize is pending. Any changes to container resources will automatically set this to "Proposed"
 
 | `startTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | RFC 3339 date and time at which the object was acknowledged by the Kubelet. This is before the Kubelet pulled the container image(s) for the pod.
 
 |===
@@ -10139,11 +10139,11 @@ Required::
 | Property | Type | Description
 
 | `lastProbeTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Last time we probed the condition.
 
 | `lastTransitionTime`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Last time the condition transitioned from one status to another.
 
 | `message`
@@ -10294,7 +10294,7 @@ Type::
 | Property | Type | Description
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container was last (re-)started
 
 |===
@@ -10326,7 +10326,7 @@ Required::
 | Exit status from the last termination of the container
 
 | `finishedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container last terminated
 
 | `message`
@@ -10342,7 +10342,7 @@ Required::
 | Signal from the last termination of the container
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which previous execution of the container started
 
 |===
@@ -10499,7 +10499,7 @@ Type::
 | Property | Type | Description
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container was last (re-)started
 
 |===
@@ -10531,7 +10531,7 @@ Required::
 | Exit status from the last termination of the container
 
 | `finishedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container last terminated
 
 | `message`
@@ -10547,7 +10547,7 @@ Required::
 | Signal from the last termination of the container
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which previous execution of the container started
 
 |===
@@ -10708,7 +10708,7 @@ Type::
 | Property | Type | Description
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container was last (re-)started
 
 |===
@@ -10740,7 +10740,7 @@ Required::
 | Exit status from the last termination of the container
 
 | `finishedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container last terminated
 
 | `message`
@@ -10756,7 +10756,7 @@ Required::
 | Signal from the last termination of the container
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which previous execution of the container started
 
 |===
@@ -10913,7 +10913,7 @@ Type::
 | Property | Type | Description
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container was last (re-)started
 
 |===
@@ -10945,7 +10945,7 @@ Required::
 | Exit status from the last termination of the container
 
 | `finishedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container last terminated
 
 | `message`
@@ -10961,7 +10961,7 @@ Required::
 | Signal from the last termination of the container
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which previous execution of the container started
 
 |===
@@ -11122,7 +11122,7 @@ Type::
 | Property | Type | Description
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container was last (re-)started
 
 |===
@@ -11154,7 +11154,7 @@ Required::
 | Exit status from the last termination of the container
 
 | `finishedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container last terminated
 
 | `message`
@@ -11170,7 +11170,7 @@ Required::
 | Signal from the last termination of the container
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which previous execution of the container started
 
 |===
@@ -11327,7 +11327,7 @@ Type::
 | Property | Type | Description
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container was last (re-)started
 
 |===
@@ -11359,7 +11359,7 @@ Required::
 | Exit status from the last termination of the container
 
 | `finishedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which the container last terminated
 
 | `message`
@@ -11375,7 +11375,7 @@ Required::
 | Signal from the last termination of the container
 
 | `startedAt`
-| xref:../objects/index.adoc#io.k8s.apimachinery.pkg.apis.meta.v1.Time[`Time`]
+| `Time`
 | Time at which previous execution of the container started
 
 |===
